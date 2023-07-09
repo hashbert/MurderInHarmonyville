@@ -19,6 +19,8 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private Collider _playerCollider;
     [SerializeField] private Rigidbody _rb;
+    [SerializeField] private Transform _raycastForward;
+    [SerializeField] private LayerMask _NPC;
 
     private void Awake()
     {
@@ -98,5 +100,10 @@ public class ThirdPersonController : MonoBehaviour
         //{
 
         //}
+        RaycastHit hit;
+        if (Physics.Raycast(_raycastForward.position, Vector3.forward, out hit, 0.1f, _NPC))
+        {
+
+        }
     }
 }
