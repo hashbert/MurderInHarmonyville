@@ -7,71 +7,65 @@ using UnityEngine.InputSystem;
 public class ThirdPersonController : MonoBehaviour
 {
     //input fields
-    private ThirdPersonActionsAsset playerActionsAsset;
-    private InputAction move;
+    private ThirdPersonActionsAsset _playerActionsAsset;
+    private InputAction _move;
 
     //movement fields
-    private Rigidbody rb;
-    [SerializeField]
-    private float movementForce = 1f;
-    [SerializeField]
-    private float jumpForce = 5f;
-    [SerializeField]
-    private float maxSpeed = 5f;
+    [SerializeField] private float _movementForce = 1f;
+    [SerializeField] private float _maxSpeed = 5f;
     private Vector3 forceDirection = Vector3.zero;
 
-    [SerializeField]
-    private Camera playerCamera;
-    private Animator animator;
+    [SerializeField] private Camera _playerCamera;
+    [SerializeField] private Animator _animator;
+    [SerializeField] private Collider _playerCollider;
+    [SerializeField] private Rigidbody _rb;
 
     private void Awake()
     {
-        rb = this.GetComponent<Rigidbody>();
-        playerActionsAsset = new ThirdPersonActionsAsset();
-        animator = this.GetComponent<Animator>();
+        _playerActionsAsset = new ThirdPersonActionsAsset();
     }
 
     private void OnEnable()
     {
-        playerActionsAsset.Player.Interact.started += DoInteract;
-        move = playerActionsAsset.Player.Move;
-        playerActionsAsset.Player.Enable();
+        _playerActionsAsset.Player.Enable();
+        _playerActionsAsset.Player.Interact.started += DoInteract;
+        _move = _playerActionsAsset.Player.Move;
     }
 
     private void OnDisable()
     {
-        playerActionsAsset.Player.Interact.started -= DoInteract;
-        playerActionsAsset.Player.Disable();
+        _playerActionsAsset.Player.Interact.started -= DoInteract;
+        _playerActionsAsset.Player.Disable();
     }
 
     private void FixedUpdate()
     {
-        forceDirection += move.ReadValue<Vector2>().x * GetCameraRight(playerCamera) * movementForce;
-        forceDirection += move.ReadValue<Vector2>().y * GetCameraForward(playerCamera) * movementForce;
+        forceDirection += _move.ReadValue<Vector2>().x * GetCameraRight(_playerCamera) * _movementForce;
+        forceDirection += _move.ReadValue<Vector2>().y * GetCameraForward(_playerCamera) * _movementForce;
 
-        rb.AddForce(forceDirection, ForceMode.Impulse);
+        _rb.AddForce(forceDirection, ForceMode.Impulse);
         forceDirection = Vector3.zero;
 
-        if (rb.velocity.y < 0f)
-            rb.velocity -= Vector3.down * Physics.gravity.y * Time.fixedDeltaTime;
+        if (_rb.velocity.y < 0f)
+            _rb.velocity -= Vector3.down * Physics.gravity.y * Time.fixedDeltaTime;
 
-        Vector3 horizontalVelocity = rb.velocity;
+        Vector3 horizontalVelocity = _rb.velocity;
         horizontalVelocity.y = 0;
-        if (horizontalVelocity.sqrMagnitude > maxSpeed * maxSpeed)
-            rb.velocity = horizontalVelocity.normalized * maxSpeed + Vector3.up * rb.velocity.y;
+        if (horizontalVelocity.sqrMagnitude > _maxSpeed * _maxSpeed)
+            _rb.velocity = horizontalVelocity.normalized * _maxSpeed + Vector3.up * _rb.velocity.y;
 
         LookAt();
     }
 
     private void LookAt()
     {
-        Vector3 direction = rb.velocity;
+        Vector3 direction = _rb.velocity;
         direction.y = 0f;
 
-        if (move.ReadValue<Vector2>().sqrMagnitude > 0.1f && direction.sqrMagnitude > 0.1f)
-            this.rb.rotation = Quaternion.LookRotation(direction, Vector3.up);
+        if (_move.ReadValue<Vector2>().sqrMagnitude > 0.1f && direction.sqrMagnitude > 0.1f)
+            this._rb.rotation = Quaternion.LookRotation(direction, Vector3.up);
         else
-            rb.angularVelocity = Vector3.zero;
+            _rb.angularVelocity = Vector3.zero;
     }
 
     private Vector3 GetCameraForward(Camera playerCamera)
@@ -88,7 +82,6 @@ public class ThirdPersonController : MonoBehaviour
         return right.normalized;
     }
 
-
     //private bool IsGrounded()
     //{
     //    Ray ray = new Ray(this.transform.position + Vector3.up * 0.25f, Vector3.down);
@@ -100,6 +93,10 @@ public class ThirdPersonController : MonoBehaviour
 
     private void DoInteract(InputAction.CallbackContext obj)
     {
-        animator.SetTrigger("interact");
+        _animator.SetTrigger("interact");
+        //if (_playerCollider.bounds.Intersects(currentHeader.boxCollider.bounds))
+        //{
+
+        //}
     }
 }
