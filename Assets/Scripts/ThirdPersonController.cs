@@ -21,7 +21,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private Rigidbody _rb;
     [SerializeField] private Transform _raycastForward;
     [SerializeField] private LayerMask _NPCLayerMask;
-    public NPC CurrentInteractingNPC;
+    [HideInInspector] public NPC CurrentInteractingNPC;
 
 
     private void Awake()
