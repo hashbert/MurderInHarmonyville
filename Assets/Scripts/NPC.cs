@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour
 {
     public bool InteractPossible { get; private set; }
-    [SerializeField] private Image _warningSign;
+    [SerializeField] private Image _exclamationMark;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<ThirdPersonController>() != null)
@@ -16,7 +16,7 @@ public class NPC : MonoBehaviour
             InteractPossible = true;
             print("interact possible" + InteractPossible);
             other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = this;
-            _warningSign.enabled = true;
+            _exclamationMark.enabled = true;
         }
     }
 
@@ -27,7 +27,7 @@ public class NPC : MonoBehaviour
             InteractPossible = false;
             print("interact not possible" + InteractPossible);
             other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = null;
-            _warningSign.enabled = false;
+            _exclamationMark.enabled = false;
         }
     }
 
