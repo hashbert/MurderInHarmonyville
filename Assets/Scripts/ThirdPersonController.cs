@@ -20,7 +20,9 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private Collider _playerCollider;
     [SerializeField] private Rigidbody _rb;
     [SerializeField] private Transform _raycastForward;
-    [SerializeField] private LayerMask _NPC;
+    [SerializeField] private LayerMask _NPCLayerMask;
+    public NPC CurrentInteractingNPC;
+
 
     private void Awake()
     {
@@ -96,14 +98,19 @@ public class ThirdPersonController : MonoBehaviour
     private void DoInteract(InputAction.CallbackContext obj)
     {
         _animator.SetTrigger("interact");
-        //if (_playerCollider.bounds.Intersects(currentHeader.boxCollider.bounds))
-        //{
-
-        //}
-        RaycastHit hit;
-        if (Physics.Raycast(_raycastForward.position, Vector3.forward, out hit, 0.1f, _NPC))
+        if (CurrentInteractingNPC)
         {
-
+            CurrentInteractingNPC.DoInteract();
         }
+        //Ray ray = new Ray(_raycastForward.position, Vector3.forward);
+        //RaycastHit hitData;
+        //if (Physics.Raycast(ray, out hitData, 0.1f, _NPCLayerMask))
+        //{
+        //    NPC npc = hitData.collider.gameObject.GetComponent<NPC>();
+        //    if (npc.InteractPossible)
+        //    {
+        //        print("interacting!");
+        //    }
+        //}
     }
 }

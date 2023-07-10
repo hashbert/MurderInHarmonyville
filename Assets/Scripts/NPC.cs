@@ -1,28 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class NPC : MonoBehaviour
 {
     public bool InteractPossible { get; private set; }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<ThirdPersonController>() != null)
         {
             InteractPossible = true;
-            print("interact possible");
+            print("interact possible" + InteractPossible);
+            other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = this;
         }
     }
 
@@ -31,7 +23,13 @@ public class NPC : MonoBehaviour
         if (other.gameObject.GetComponent<ThirdPersonController>() != null)
         {
             InteractPossible = false;
-            print("interact not possible");
+            print("interact not possible" + InteractPossible);
+            other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = null;
         }
+    }
+
+    public void DoInteract()
+    {
+        print("hey buddy, how can I help" + gameObject.name);
     }
 }
