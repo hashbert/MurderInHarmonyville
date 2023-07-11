@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+using Yarn.Unity;
 public class ThirdPersonController : MonoBehaviour
 {
     //input fields
-    private ThirdPersonActionsAsset _playerActionsAsset;
+    private Transform _playerActionsAsset;
     private InputAction _move;
 
     //movement fields
@@ -19,14 +19,14 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private Collider _playerCollider;
     [SerializeField] private Rigidbody _rb;
-    [SerializeField] private Transform _raycastForward;
+    [SerializeField] private UnityEngine.Transform _raycastForward;
     [SerializeField] private LayerMask _NPCLayerMask;
     [HideInInspector] public NPC CurrentInteractingNPC;
 
 
     private void Awake()
     {
-        _playerActionsAsset = new ThirdPersonActionsAsset();
+        _playerActionsAsset = new Transform();
     }
 
     private void OnEnable()
@@ -86,15 +86,6 @@ public class ThirdPersonController : MonoBehaviour
         return right.normalized;
     }
 
-    //private bool IsGrounded()
-    //{
-    //    Ray ray = new Ray(this.transform.position + Vector3.up * 0.25f, Vector3.down);
-    //    if (Physics.Raycast(ray, out RaycastHit hit, 0.3f))
-    //        return true;
-    //    else
-    //        return false; 
-    //}
-
     private void DoInteract(InputAction.CallbackContext obj)
     {
         _animator.SetTrigger("interact");
@@ -102,15 +93,16 @@ public class ThirdPersonController : MonoBehaviour
         {
             CurrentInteractingNPC.DoInteract();
         }
-        //Ray ray = new Ray(_raycastForward.position, Vector3.forward);
-        //RaycastHit hitData;
-        //if (Physics.Raycast(ray, out hitData, 0.1f, _NPCLayerMask))
-        //{
-        //    NPC npc = hitData.collider.gameObject.GetComponent<NPC>();
-        //    if (npc.InteractPossible)
-        //    {
-        //        print("interacting!");
-        //    }
-        //}
+    }
+    public void PlayerActionAssetEnabled(bool isEnabled)
+    {
+        if (isEnabled)
+        {
+            _playerActionsAsset.Player.Enable();
+        }
+        else
+        {
+            _playerActionsAsset.Player.Disable();
+        }
     }
 }

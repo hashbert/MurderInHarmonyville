@@ -15,10 +15,10 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public partial class @ThirdPersonActionsAsset: IInputActionCollection2, IDisposable
+public partial class Transform: IInputActionCollection2, IDisposable
 {
     public InputActionAsset asset { get; }
-    public @ThirdPersonActionsAsset()
+    public Transform()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""ThirdPersonActionsAsset"",
@@ -1095,8 +1095,8 @@ public partial class @ThirdPersonActionsAsset: IInputActionCollection2, IDisposa
     private readonly InputAction m_Player_LookZoom;
     public struct PlayerActions
     {
-        private @ThirdPersonActionsAsset m_Wrapper;
-        public PlayerActions(@ThirdPersonActionsAsset wrapper) { m_Wrapper = wrapper; }
+        private Transform m_Wrapper;
+        public PlayerActions(Transform wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
@@ -1178,8 +1178,8 @@ public partial class @ThirdPersonActionsAsset: IInputActionCollection2, IDisposa
     private readonly InputAction m_UI_TrackedDeviceOrientation;
     public struct UIActions
     {
-        private @ThirdPersonActionsAsset m_Wrapper;
-        public UIActions(@ThirdPersonActionsAsset wrapper) { m_Wrapper = wrapper; }
+        private Transform m_Wrapper;
+        public UIActions(Transform wrapper) { m_Wrapper = wrapper; }
         public InputAction @Navigate => m_Wrapper.m_UI_Navigate;
         public InputAction @Submit => m_Wrapper.m_UI_Submit;
         public InputAction @Cancel => m_Wrapper.m_UI_Cancel;
