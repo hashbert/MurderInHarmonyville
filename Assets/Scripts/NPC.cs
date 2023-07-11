@@ -14,12 +14,12 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<ThirdPersonController>() != null)
+        if (other.gameObject.GetComponent<ThirdPersonControllerOld>() != null)
         {
             _player = other.gameObject.GetComponent<UnityEngine.Transform>();
             InteractPossible = true;
             print("interact possible" + InteractPossible);
-            other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = this;
+            other.gameObject.GetComponent<ThirdPersonControllerOld>().CurrentInteractingNPC = this;
             _exclamationMark.enabled = true;
             LookAt(_player);
         }
@@ -27,11 +27,11 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.GetComponent<ThirdPersonController>() != null)
+        if (other.gameObject.GetComponent<ThirdPersonControllerOld>() != null)
         {
             InteractPossible = false;
             print("interact not possible" + InteractPossible);
-            other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = null;
+            other.gameObject.GetComponent<ThirdPersonControllerOld>().CurrentInteractingNPC = null;
             _exclamationMark.enabled = false;
             _player = null;
         }
