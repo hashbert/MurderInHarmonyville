@@ -10,17 +10,18 @@ public class NPC : MonoBehaviour
     public bool InteractPossible { get; private set; }
     [SerializeField] private Image _exclamationMark;
     [SerializeField] private Rigidbody _rb;
-    private Transform _player;
+    private UnityEngine.Transform _player;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<ThirdPersonController>() != null)
         {
-            _player = other.gameObject.GetComponent<Transform>();
+            _player = other.gameObject.GetComponent<UnityEngine.Transform>();
             InteractPossible = true;
             print("interact possible" + InteractPossible);
             other.gameObject.GetComponent<ThirdPersonController>().CurrentInteractingNPC = this;
             _exclamationMark.enabled = true;
+            LookAt(_player);
         }
     }
 
@@ -35,15 +36,9 @@ public class NPC : MonoBehaviour
             _player = null;
         }
     }
-    private void LookAt(Transform player)
+    private void LookAt(UnityEngine.Transform player)
     {
-        Vector3 direction = player.;
-        direction.y = 0f;
-
-        if (_move.ReadValue<Vector2>().sqrMagnitude > 0.1f && direction.sqrMagnitude > 0.1f)
-            this._rb.rotation = Quaternion.LookRotation(direction, Vector3.up);
-        else
-            _rb.angularVelocity = Vector3.zero;
+        this.transform.LookAt(player);
     }
     public void DoInteract()
     {
