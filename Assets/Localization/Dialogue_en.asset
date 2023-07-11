@@ -54,6 +54,42 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 6889599478954983791
+  - m_Id: 3787614703616
+    m_Localized: Here in Harmonyville, all was quiet until...The EVENT happened!!!
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983796
+  - m_Id: 3787623092224
+    m_Localized: Do you accept the task of talking to the citizens of Harmonyville
+      to
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983797
+  - m_Id: 3787623092225
+    m_Localized: find out who dunnit?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983798
+  - m_Id: 3787623092226
+    m_Localized: Yes
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983799
+  - m_Id: 3787623092227
+    m_Localized: Maybe
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983800
+  - m_Id: 3787623092228
+    m_Localized: Nah, I think I'll take a nap.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983801
+  - m_Id: 3787623092229
+    m_Localized: Excellent. Well, off you go then.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599478954983802
   references:
     version: 2
     RefIds:
@@ -89,6 +125,42 @@ MonoBehaviour:
         nodeName: Start
         tags: []
     - rid: 6889599478954983791
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599478954983796
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599478954983797
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599478954983798
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags:
+        - lastline
+    - rid: 6889599478954983799
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599478954983800
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599478954983801
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599478954983802
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Start
