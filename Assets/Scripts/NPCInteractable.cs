@@ -10,10 +10,11 @@ namespace StarterAssets
 {
     public class NPCInteractable : MonoBehaviour, IInteractable
     {
-        public event Action<NPCInteractable> OnInteractPossible;
+        
         [SerializeField] private string _interactText;
         [SerializeField] private string _startNode;
         public bool InteractPossible { get; private set; }
+        public static event Action<NPCInteractable> OnInteractPossible;
         [SerializeField] private Image _exclamationMark;
         [SerializeField] private DialogueRunner _dialogueRunner;
 
@@ -22,8 +23,8 @@ namespace StarterAssets
             if (other.gameObject.GetComponent<ThirdPersonController>() != null)
             {
                 InteractPossible = true;
-                print("interact possible" + InteractPossible);
                 OnInteractPossible?.Invoke(this);
+                print("interact possible" + InteractPossible);
                 _exclamationMark.enabled = true;
             }
         }
@@ -33,8 +34,10 @@ namespace StarterAssets
             if (other.gameObject.GetComponent<ThirdPersonController>() != null)
             {
                 InteractPossible = false;
+                OnInteractPossible?.Invoke(this);
                 print("interact not possible" + InteractPossible);
                 _exclamationMark.enabled = false;
+                
             }
         }
 

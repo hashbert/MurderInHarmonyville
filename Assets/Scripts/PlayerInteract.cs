@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,12 +7,31 @@ using UnityEngine.InputSystem;
 public class PlayerInteract : MonoBehaviour {
 
     [SerializeField] private InputActionReference _interact;
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.E)) {
-            IInteractable interactable = GetInteractableObject();
-            if (interactable != null) {
-                interactable.Interact(transform);
-            }
+    //private void Update() {
+    //    if (Input.GetKeyDown(KeyCode.E)) {
+    //        IInteractable interactable = GetInteractableObject();
+    //        if (interactable != null) {
+    //            interactable.Interact(transform);
+    //        }
+    //    }
+    //}
+
+    private void OnEnable()
+    {
+        _interact.action.started += Interact;
+    }
+
+    private void OnDisable()
+    {
+        _interact.action.started -= Interact;
+    }
+
+    private void Interact(InputAction.CallbackContext obj)
+    {
+        IInteractable interactable = GetInteractableObject();
+        if (interactable != null)
+        {
+            interactable.Interact(transform);
         }
     }
 
