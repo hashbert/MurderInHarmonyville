@@ -2077,10 +2077,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137306, guid: b804e7b2da9c7eb45b212123f68fb1ac,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1382285024}
-    - targetCorrespondingSourceObject: {fileID: 137306, guid: b804e7b2da9c7eb45b212123f68fb1ac,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1382285025}
   m_SourcePrefab: {fileID: 100100000, guid: b804e7b2da9c7eb45b212123f68fb1ac, type: 3}
 --- !u!1001 &397329675
@@ -4052,10 +4048,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1586188432}
-    - targetCorrespondingSourceObject: {fileID: 137306, guid: b804e7b2da9c7eb45b212123f68fb1ac,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1586188431}
     - targetCorrespondingSourceObject: {fileID: 137306, guid: b804e7b2da9c7eb45b212123f68fb1ac,
         type: 3}
       insertIndex: -1
@@ -17381,19 +17373,6 @@ MonoBehaviour:
   _startNode: Lisa
   _exclamationMark: {fileID: 971046183}
   _dialogueRunner: {fileID: 907623033}
---- !u!114 &1382285024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382285008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a7b291a09958447b3f3191706c9fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headLookAtTransform: {fileID: 50501136}
 --- !u!136 &1382285025
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18369,19 +18348,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1586188431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586188429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a7b291a09958447b3f3191706c9fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headLookAtTransform: {fileID: 996530664}
 --- !u!114 &1586188432
 MonoBehaviour:
   m_ObjectHideFlags: 0

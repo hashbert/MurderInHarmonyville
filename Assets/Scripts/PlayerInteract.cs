@@ -33,7 +33,6 @@ public class PlayerInteract : MonoBehaviour {
             IInteractable interactable = GetInteractableObject();
             if (interactable != null && interactable.IsInteractable())
             {
-                print(Vector3.Magnitude(transform.position - interactable.GetTransform().position) + " is distance");
                 interactable.Interact(transform);
             }
         }

@@ -45,6 +45,14 @@ namespace StarterAssets
         {
             print("hey buddy, how can I help" + gameObject.name);
             _dialogueRunner.StartDialogue(_startNode);
+            TurnTowards(interactorTransform);
+        }
+
+        private void TurnTowards(Transform interactorTransform)
+        {
+            Vector3 turnTo = interactorTransform.position - transform.position;
+            float _targetRotationDegrees = Mathf.Atan2(turnTo.x, turnTo.z) * Mathf.Rad2Deg;
+            LeanTween.rotateY(this.gameObject, _targetRotationDegrees, 0.25f);
         }
 
         public string GetInteractText()
