@@ -37,7 +37,6 @@ namespace StarterAssets
                 OnInteractPossible?.Invoke(this);
                 print("interact not possible" + InteractPossible);
                 _exclamationMark.enabled = false;
-                
             }
         }
 

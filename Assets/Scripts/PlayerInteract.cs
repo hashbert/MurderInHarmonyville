@@ -7,14 +7,6 @@ using UnityEngine.InputSystem;
 public class PlayerInteract : MonoBehaviour {
 
     [SerializeField] private InputActionReference _interact;
-    //private void Update() {
-    //    if (Input.GetKeyDown(KeyCode.E)) {
-    //        IInteractable interactable = GetInteractableObject();
-    //        if (interactable != null) {
-    //            interactable.Interact(transform);
-    //        }
-    //    }
-    //}
 
     private void OnEnable()
     {
@@ -34,11 +26,13 @@ public class PlayerInteract : MonoBehaviour {
             if (interactable != null && interactable.IsInteractable())
             {
                 interactable.Interact(transform);
+                TurnTowards(interactable.GetTransform());
             }
         }
     }
 
-    public IInteractable GetInteractableObject() {
+    public IInteractable GetInteractableObject() 
+    {
         List<IInteractable> interactableList = new List<IInteractable>();
         float interactRange = 3f;
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
@@ -62,6 +56,13 @@ public class PlayerInteract : MonoBehaviour {
         }
 
         return closestInteractable;
+    }
+
+    private void TurnTowards(Transform interactorTransform)
+    {
+        Vector3 turnTo = interactorTransform.position - transform.position;
+        float _targetRotationDegrees = Mathf.Atan2(turnTo.x, turnTo.z) * Mathf.Rad2Deg;
+        LeanTween.rotateY(this.gameObject, _targetRotationDegrees, 0.25f);
     }
 
 }
