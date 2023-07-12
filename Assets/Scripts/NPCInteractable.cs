@@ -56,5 +56,10 @@ namespace StarterAssets
         {
             return transform;
         }
+
+        public bool IsInteractable()
+        {
+            return InteractPossible;
+        }
     }
 }

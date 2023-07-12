@@ -28,10 +28,14 @@ public class PlayerInteract : MonoBehaviour {
 
     private void Interact(InputAction.CallbackContext obj)
     {
-        IInteractable interactable = GetInteractableObject();
-        if (interactable != null)
+        if (obj.started)
         {
-            interactable.Interact(transform);
+            IInteractable interactable = GetInteractableObject();
+            if (interactable != null && interactable.IsInteractable())
+            {
+                print(Vector3.Magnitude(transform.position - interactable.GetTransform().position) + " is distance");
+                interactable.Interact(transform);
+            }
         }
     }
 
