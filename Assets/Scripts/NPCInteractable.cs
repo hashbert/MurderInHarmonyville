@@ -10,7 +10,7 @@ namespace StarterAssets
 {
     public class NPCInteractable : MonoBehaviour, IInteractable
     {
-        
+        [SerializeField] private AnimationCurve _animationCurve;
         [SerializeField] private string _interactText;
         [SerializeField] private string _startNode;
         public bool InteractPossible { get; private set; }
@@ -44,7 +44,13 @@ namespace StarterAssets
         {
             print("hey buddy, how can I help" + gameObject.name);
             _dialogueRunner.StartDialogue(_startNode);
+            Bounce();
             TurnTowards(interactorTransform);
+        }
+
+        private void Bounce()
+        {
+            LeanTween.moveY(gameObject, transform.position.y + 0.25f, 0.25f).setEase(_animationCurve);
         }
 
         private void TurnTowards(Transform interactorTransform)
