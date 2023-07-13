@@ -13,7 +13,6 @@ namespace StarterAssets
         [SerializeField] private PlayerInteract playerInteract;
         [SerializeField] private TextMeshProUGUI interactTextMeshProUGUI;
 
-
         private void OnEnable()
         {
             NPCInteractable.OnInteractPossible += ToggleInteract;
