@@ -24,7 +24,7 @@ Officer Jones: Well who do you think did it?
 title: JonesShocked
 position: -33,-561
 ---
-Oh my. How dare you incriminate me?
+Officer Jones: Oh my. How dare you incriminate me?
 -> The clown saw you out last night throwing a body bag into the river
     <<jump FatChance>>
 -> Lisa analyzed the blood sample of your baton. Checkmate.
@@ -39,10 +39,10 @@ Oh my. How dare you incriminate me?
 title: FatChance
 position: -37,-385
 ---
-Wow, unbelieveable. Get out of here!
+Officer Jones: Wow, unbelieveable. Get out of here!
 ===
 title: JonesGuilty
 position: -334,-198
 ---
-But I... I... I gotta run!!!
+Officer Jones: But I... I... I gotta run!!!
 ===
