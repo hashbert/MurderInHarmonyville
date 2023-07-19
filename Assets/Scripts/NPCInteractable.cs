@@ -44,6 +44,7 @@ namespace StarterAssets
         {
             print("hey buddy, how can I help" + gameObject.name);
             _dialogueRunner.StartDialogue(_startNode);
+            _exclamationMark.enabled = false;
             Bounce();
             TurnTowards(interactorTransform);
         }
