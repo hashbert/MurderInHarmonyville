@@ -1,6 +1,10 @@
 ﻿title: Start
-position: 0,0
+position: -332,-747
 ---
+<<declare $hasTalkedToPolice = false as bool>>
+<<declare $hasTalkedToLisa = false as bool>>
+<<declare $hasTalkedToClown = false as bool>>
+<<declare $hasTalkedToPrivate = false as bool>>
 Here in Harmonyville, all was quiet until...The EVENT happened!!!
 
 Do you accept the task of talking to the citizens of Harmonyville to find out who dunnit?
@@ -9,4 +13,138 @@ Do you accept the task of talking to the citizens of Harmonyville to find out wh
 -> Nah, I think I'll take a nap.
 
 Excellent. Well, off you go then.
+===
+title: OfficerJones
+position: -337,-566
+---
+<<if $hasTalkedToPolice==true>>
+Officer Jones: Hello again!
+<<endif>>
+
+<<if $hasTalkedToPolice==false>>
+    <<set $hasTalkedToPolice=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+<<endif>>
+
+Officer Jones: We've been looking for a detective like yourself. Would you like to tell us your findings?
+-> Yes. I'd like to report my findings.
+    <<jump JonesAffirmative>>
+-> Actually, I'll get back to you on that. I'm going to snoop around some more.
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+-> I'd like to acuse a suspect
+    <<jump Acuse>>
+<<endif>>
+===
+title: JonesAffirmative
+position: -337,-383
+---
+Officer Jones: Well who do you think did it?
+-> Lisa
+    <<jump FatChance>>
+-> The clown
+    <<jump FatChance>>
+-> Private McConnel
+    <<jump FatChance>>
+-> You
+    <<jump JonesShocked>>
+-> That D&D guy over there...
+    <<jump FatChance>>
+===
+title: JonesShocked
+position: -74,-384
+---
+Officer Jones: Oh my. How dare you incriminate me?
+-> The clown saw you out last night throwing a body bag into the river
+    <<jump FatChance>>
+-> Lisa analyzed the blood sample of your baton. Checkmate.
+    <<jump FatChance>>
+-> Private McConnel found notes in an email to yourself about the victim's schedule.
+    <<jump JonesGuilty>>
+-> You are dressed funny.
+    <<jump FatChance>>
+-> That D&D guy said he saw you yelling at his neighbor once. That kind of temper would definitely be enough to murder someone.
+    <<jump FatChance>>
+===
+title: FatChance
+position: -227,-143
+---
+Wow, unbelieveable. Get out of here!
+===
+title: JonesGuilty
+position: 183,-384
+---
+Officer Jones: But I... I... I gotta run!!!
+===
+title: Lisa
+position: -312,137
+---
+<<if $hasTalkedToLisa==false>>
+    <<set $hasTalkedToLisa=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+<<endif>>
+Lisa: Hi! I'm Lisa. What brings you to Harmonyville, stranger?
+
+-> I'm looking for information about a murder. Would you know anything about that?
+    <<jump LisaAffirmative>>
+-> None of your buisness.
+    <<jump LisaNegative>>
+-> Oh sorry, I thought you were someone else.
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+-> I'd like to acuse a suspect
+    <<jump Acuse>>
+<<endif>>
+===
+title: LisaAffirmative
+position: 31,35
+---
+Lisa: Oh you know about that? I heard they were found naked in a dumpster. Maybe Sherry from the fire department knows more?
+===
+title: LisaNegative
+position: 30,236
+---
+Lisa: Good chatting with you. I hope you find what you are looking for.
+===
+title: Clown
+position: 395,-725
+---
+<<if $hasTalkedToClown==false>>
+    <<set $hasTalkedToClown=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+<<endif>>
+Clown: Hi, I'm new here.
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+-> I'd like to acuse a suspect
+    <<jump Acuse>>
+<<endif>>
+===
+title: PrivateMcConnel
+position: 624,-727
+---
+<<if $hasTalkedToPrivate==false>>
+    <<set $hasTalkedToPrivate=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+<<endif>>
+
+Private McConnel: I don't know nuttin!! I'm solving this case myself! I mean... I don't know nothing!
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+-> I'd like to acuse a suspect
+    <<jump Acuse>>
+<<endif>>
+===
+title: Acuse
+position: 507,-402
+---
+-> The Police Officer did it
+    <<jump win>>
+-> Lisa did it
+    <<jump FatChance>>
+-> The clown did it
+    <<jump FatChance>>
+-> The private did it
+    <<jump FatChance>>
+===
+title: win
+position: 512,-171
+---
+You solved the mystery! You win!
 ===

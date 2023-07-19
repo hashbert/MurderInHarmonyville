@@ -1,22 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] private int _minimumNPCsNeededToSolve = 3;
-    public int NumberOfNPCsVisited { get; private set; }
+    [SerializeField] private static int _minimumNPCsNeededToSolve = 3;
+    private static int NumberOfNPCsVisited = 0;
 
-    public void SetNumberOfNPCsVisited()
+    [YarnCommand("addToNPCsVistedCount")]
+    public void AddToNPCVisitedCount()
     {
         NumberOfNPCsVisited++;
+        print("visited " + NumberOfNPCsVisited + " people so far");
     }
 
-    public bool NPCVisited()
+   [YarnFunction("getNPCsVistedCount")]
+   public static int GetNPCsVisitedCount()
     {
-        if (true)
-        {
-            return true;
-        }
+        return NumberOfNPCsVisited;
     }
+
+    [YarnFunction("getMinNPCsVistedCount")]
+    public static int GetMinNPCsVisitedCount()
+    {
+        return _minimumNPCsNeededToSolve;
+    }
+
 }
