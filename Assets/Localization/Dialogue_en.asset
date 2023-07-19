@@ -626,9 +626,433 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 6889599663591654140
+  - m_Id: 2968733682978816
+    m_Localized: Here in Harmonyville, all was quiet until...The EVENT happened!!!
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253346
+  - m_Id: 2968733741699072
+    m_Localized: Do you accept the task of talking to the citizens of Harmonyville
+      to find out who dunnit?
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253347
+  - m_Id: 2968733741699073
+    m_Localized: Yes
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253348
+  - m_Id: 2968733741699074
+    m_Localized: Maybe
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253349
+  - m_Id: 2968733741699075
+    m_Localized: Nah, I think I'll take a nap.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253350
+  - m_Id: 2968733741699076
+    m_Localized: Excellent. Well, off you go then.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253351
+  - m_Id: 2968733741699077
+    m_Localized: 'Officer Jones: Hello again!'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253352
+  - m_Id: 2968733741699078
+    m_Localized: 'Officer Jones: We''ve been looking for a detective like yourself.
+      Would you like to tell us your findings?'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253353
+  - m_Id: 2968733741699079
+    m_Localized: Yes. I'd like to report my findings.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253354
+  - m_Id: 2968733741699080
+    m_Localized: Actually, I'll get back to you on that. I'm going to snoop around
+      some more.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253355
+  - m_Id: 2968733741699081
+    m_Localized: I'd like to acuse a suspect
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253356
+  - m_Id: 2968733741699082
+    m_Localized: 'Officer Jones: Well who do you think did it?'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253357
+  - m_Id: 2968733741699083
+    m_Localized: Lisa
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253358
+  - m_Id: 2968733741699084
+    m_Localized: The clown
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253359
+  - m_Id: 2968733741699085
+    m_Localized: Private McConnel
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253360
+  - m_Id: 2968733741699086
+    m_Localized: You
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253361
+  - m_Id: 2968733745893376
+    m_Localized: That D&D guy over there...
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253362
+  - m_Id: 2968733745893377
+    m_Localized: 'Officer Jones: Oh my. How dare you incriminate me?'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253363
+  - m_Id: 2968733745893378
+    m_Localized: The clown saw you out last night throwing a body bag into the river
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253364
+  - m_Id: 2968733745893379
+    m_Localized: Lisa analyzed the blood sample of your baton. Checkmate.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253365
+  - m_Id: 2968733745893380
+    m_Localized: Private McConnel found notes in an email to yourself about the victim's
+      schedule.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253366
+  - m_Id: 2968733745893381
+    m_Localized: You are dressed funny.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253367
+  - m_Id: 2968733745893382
+    m_Localized: That D&D guy said he saw you yelling at his neighbor once. That
+      kind of temper would definitely be enough to murder someone.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253368
+  - m_Id: 2968733745893383
+    m_Localized: Wow, unbelieveable. Get out of here!
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253369
+  - m_Id: 2968733745893384
+    m_Localized: 'Officer Jones: But I... I... I gotta run!!!'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253370
+  - m_Id: 2968733745893385
+    m_Localized: 'Lisa: Hi! I''m Lisa. What brings you to Harmonyville, stranger?'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253371
+  - m_Id: 2968733745893386
+    m_Localized: I'm looking for information about a murder. Would you know anything
+      about that?
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253372
+  - m_Id: 2968733745893387
+    m_Localized: None of your buisness.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253373
+  - m_Id: 2968733745893388
+    m_Localized: Oh sorry, I thought you were someone else.
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253374
+  - m_Id: 2968733745893389
+    m_Localized: I'd like to acuse a suspect
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253375
+  - m_Id: 2968733745893390
+    m_Localized: 'Lisa: Oh you know about that? I heard they were found naked in
+      a dumpster. Maybe Sherry from the fire department knows more?'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253376
+  - m_Id: 2968733745893391
+    m_Localized: 'Lisa: Good chatting with you. I hope you find what you are looking
+      for.'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253377
+  - m_Id: 2968733745893392
+    m_Localized: 'Clown: Hi, I''m new here.'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253378
+  - m_Id: 2968733745893393
+    m_Localized: I'd like to acuse a suspect
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253379
+  - m_Id: 2968733745893394
+    m_Localized: 'Private McConnel: I don''t know nuttin!! I''m solving this case
+      myself! I mean... I don''t know nothing!'
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253380
+  - m_Id: 2968733745893395
+    m_Localized: I'd like to acuse a suspect
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253381
+  - m_Id: 2968733745893396
+    m_Localized: The Police Officer did it
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253382
+  - m_Id: 2968733745893397
+    m_Localized: Lisa did it
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253383
+  - m_Id: 2968733745893398
+    m_Localized: The clown did it
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253384
+  - m_Id: 2968733745893399
+    m_Localized: The private did it
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253385
+  - m_Id: 2968733745893400
+    m_Localized: You solved the mystery! You win!
+    m_Metadata:
+      m_Items:
+      - rid: 6572315793594253386
   references:
     version: 2
     RefIds:
+    - rid: 6572315793594253346
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6572315793594253347
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags:
+        - lastline
+    - rid: 6572315793594253348
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6572315793594253349
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6572315793594253350
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6572315793594253351
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6572315793594253352
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: OfficerJones
+        tags: []
+    - rid: 6572315793594253353
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: OfficerJones
+        tags:
+        - lastline
+    - rid: 6572315793594253354
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: OfficerJones
+        tags: []
+    - rid: 6572315793594253355
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: OfficerJones
+        tags: []
+    - rid: 6572315793594253356
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: OfficerJones
+        tags: []
+    - rid: 6572315793594253357
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesAffirmative
+        tags:
+        - lastline
+    - rid: 6572315793594253358
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesAffirmative
+        tags: []
+    - rid: 6572315793594253359
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesAffirmative
+        tags: []
+    - rid: 6572315793594253360
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesAffirmative
+        tags: []
+    - rid: 6572315793594253361
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesAffirmative
+        tags: []
+    - rid: 6572315793594253362
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesAffirmative
+        tags: []
+    - rid: 6572315793594253363
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesShocked
+        tags:
+        - lastline
+    - rid: 6572315793594253364
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesShocked
+        tags: []
+    - rid: 6572315793594253365
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesShocked
+        tags: []
+    - rid: 6572315793594253366
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesShocked
+        tags: []
+    - rid: 6572315793594253367
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesShocked
+        tags: []
+    - rid: 6572315793594253368
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesShocked
+        tags: []
+    - rid: 6572315793594253369
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: FatChance
+        tags: []
+    - rid: 6572315793594253370
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: JonesGuilty
+        tags: []
+    - rid: 6572315793594253371
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Lisa
+        tags:
+        - lastline
+    - rid: 6572315793594253372
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Lisa
+        tags: []
+    - rid: 6572315793594253373
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Lisa
+        tags: []
+    - rid: 6572315793594253374
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Lisa
+        tags: []
+    - rid: 6572315793594253375
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Lisa
+        tags: []
+    - rid: 6572315793594253376
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: LisaAffirmative
+        tags: []
+    - rid: 6572315793594253377
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: LisaNegative
+        tags: []
+    - rid: 6572315793594253378
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Clown
+        tags: []
+    - rid: 6572315793594253379
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Clown
+        tags: []
+    - rid: 6572315793594253380
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: PrivateMcConnel
+        tags: []
+    - rid: 6572315793594253381
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: PrivateMcConnel
+        tags: []
+    - rid: 6572315793594253382
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6572315793594253383
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6572315793594253384
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6572315793594253385
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6572315793594253386
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: win
+        tags: []
     - rid: 6889599478954983785
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
