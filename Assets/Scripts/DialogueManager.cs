@@ -13,8 +13,8 @@ public class DialogueManager : MonoBehaviour
     [YarnCommand("addToNPCsVistedCount")]
     public void AddToNPCVisitedCount()
     {
-        OnNPCVisitedForFirstTime?.Invoke();
         NumberOfNPCsVisited++;
+        OnNPCVisitedForFirstTime?.Invoke();
         print("visited " + NumberOfNPCsVisited + " people so far");
     }
 
