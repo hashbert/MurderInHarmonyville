@@ -69,9 +69,9 @@ namespace StarterAssets
             return closestInteractable;
         }
 
-        private void TurnTowards(Transform interactorTransform)
+        private void TurnTowards(Transform direction)
         {
-            Vector3 turnTo = interactorTransform.position - transform.position;
+            Vector3 turnTo = direction.position - transform.position;
             float _targetRotationDegrees = Mathf.Atan2(turnTo.x, turnTo.z) * Mathf.Rad2Deg;
             LeanTween.rotateY(this.gameObject, _targetRotationDegrees, 0.25f);
         }
