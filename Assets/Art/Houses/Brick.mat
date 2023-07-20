@@ -41,7 +41,7 @@ Material:
     - _Tiling_X: 5.13
     - _Tiling_Y: 9.63
     - _emission: 0
-    - _multiplyBrick: -1.04
+    - _multiplyBrick: -1.22
     m_Colors:
     - _brickColor: {r: 0.83137256, g: 0.3528036, b: 0.12156862, a: 0}
     - _fillColor: {r: 0.16037738, g: 0.13389999, b: 0.13389999, a: 1}

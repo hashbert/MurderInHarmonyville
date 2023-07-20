@@ -29,19 +29,19 @@ Material:
     - _Luminance_Range: 0
     - _Major_Radius: 0.09
     - _MinorRadius: 0.06
-    - _Noirse_Scale: 2.46
-    - _Noise_Edge: 0.06
+    - _Noirse_Scale: 1.74
+    - _Noise_Edge: -0.03
     - _Offset: 5.7
     - _QueueControl: 0
     - _RandomOffsetRange: 2.8
-    - _Random_Height: 0.12
+    - _Random_Height: 0.03
     - _Random_Offset_Range: 0
     - _Size: 0.5
     - _Tiling: 13
     - _Tiling_X: 5.13
     - _Tiling_Y: 9.63
     - _emission: -0.43
-    - _multiplyBrick: -1.04
+    - _multiplyBrick: -0.92
     m_Colors:
     - _brickColor: {r: 0.034272425, g: 0.67058825, b: 0, a: 0}
     - _fillColor: {r: 0, g: 0, b: 0, a: 1}
