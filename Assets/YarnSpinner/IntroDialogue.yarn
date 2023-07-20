@@ -9,7 +9,7 @@ position: 590,975
 The mayor of Harmonyville has been murdered, and the detective assigned to the case must interview four suspects, each of whom has a motive and an alibi. Can you help the detective solve the case?
 ===
 title: Acuse
-position: 568,1217
+position: 568,1216
 ---
 -> The Mayor's Wife suffocated him to inherit his power.
     <<jump NoWin>>
@@ -66,7 +66,7 @@ position: -433,317
 <<endif>>
 ===
 title: MayorsWifeResponseA
-position: 137,61
+position: 137,60
 ---
 Mayor's Wife: I was at home, like I said.
 <<set $MayorsWifeOptionAClicked=true>>
@@ -80,7 +80,7 @@ Mayor's Wife: No, of course not. I loved my husband very much.
 <<jump MayorsWifeQuestions>>
 ===
 title: MayorsWifeResponseC
-position: 131,384
+position: 131,383
 ---
 Mayor's Wife: No, I didn't. I was asleep.
 <<set $MayorsWifeOptionCClicked=true>>
