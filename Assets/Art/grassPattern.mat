@@ -44,10 +44,10 @@ Material:
     - _Line_Tile: 2.76
     - _QueueControl: 0
     - _Rect_H: 0.13
-    - _Rect_W: 0.78
-    - _Stretch: 1
-    - _Tiling: 0.7
-    - _rotation: 0.97
+    - _Rect_W: 0.47
+    - _Stretch: 1.35
+    - _Tiling: 0.68
+    - _rotation: 1.03
     m_Colors:
     - _color1: {r: 0.3381095, g: 0.6509434, b: 0.29783732, a: 0}
     - _color2: {r: 0, g: 0, b: 0, a: 0}

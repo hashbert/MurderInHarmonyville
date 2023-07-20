@@ -49,6 +49,6 @@ Material:
     - _Tiling: 1.4
     - _rotation: 0
     m_Colors:
-    - _color1: {r: 0.42764327, g: 0.48296314, b: 0.5849056, a: 0}
+    - _color1: {r: 0.23529412, g: 0.3647059, b: 0.42352942, a: 0}
     - _color2: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
