@@ -10,14 +10,18 @@ public class WalkBehavior : StateMachineBehaviour
     private float _maxTimeToStayWalking = 5;
     NavMeshAgent navMeshAgent;
     [SerializeField] private RandomPointOnNavMesh _randomPointOnNavMesh;
+    private Transform _thisTransform;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        _thisTransform = animator.gameObject.GetComponent<Transform>();
         _timeToStayWalking = Random.Range(_minTimeToStayWalking, _maxTimeToStayWalking);
         Debug.Log("time to stay walking: " + _timeToStayWalking);
         navMeshAgent = animator.gameObject.GetComponent<NavMeshAgent>();
         _randomPointOnNavMesh = FindObjectOfType<RandomPointOnNavMesh>();
-        navMeshAgent.destination=_randomPointOnNavMesh.GetRandomPointOnNavMesh();
+        Vector3 destination = _randomPointOnNavMesh.GetRandomPointOnNavMesh();
+        TurnTowards(destination);
+        navMeshAgent.destination = destination;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -48,4 +52,11 @@ public class WalkBehavior : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
+
+    private void TurnTowards(Vector3 location)
+    {
+        Vector3 turnTo = location - _thisTransform.position;
+        float _targetRotationDegrees = Mathf.Atan2(turnTo.x, turnTo.z) * Mathf.Rad2Deg;
+        LeanTween.rotateY(_thisTransform.gameObject, _targetRotationDegrees, 0.5f);
+    }
 }
