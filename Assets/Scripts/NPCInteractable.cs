@@ -25,7 +25,6 @@ namespace StarterAssets
                 InteractPossible = true;
                 OnInteractPossible?.Invoke(this);
                 print("interact possible" + InteractPossible);
-                _exclamationMark.enabled = true;
             }
         }
 
@@ -36,16 +35,16 @@ namespace StarterAssets
                 InteractPossible = false;
                 OnInteractPossible?.Invoke(this);
                 print("interact not possible" + InteractPossible);
-                _exclamationMark.enabled = false;
             }
         }
 
-        public void Interact(Transform interactorTransform)
+        public void Interact(Transform otherNPC)
         {
             print("hey buddy, how can I help" + gameObject.name);
             _dialogueRunner.StartDialogue(_startNode);
+            _exclamationMark.enabled = false;
             Bounce();
-            TurnTowards(interactorTransform);
+            TurnTowards(otherNPC);
         }
 
         private void Bounce()

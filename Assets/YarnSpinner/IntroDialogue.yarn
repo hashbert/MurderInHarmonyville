@@ -1,12 +1,312 @@
 ﻿title: Start
-position: 0,0
+position: 590,975
 ---
-Here in Harmonyville, all was quiet until...The EVENT happened!!!
+<<declare $hasTalkedToMayorsWife = false as bool>>
+<<declare $hasTalkedToMayorsMistress = false as bool>>
+<<declare $hasTalkedToChiefOfStaff = false as bool>>
+<<declare $hasTalkedToMayorsCampaignManager = false as bool>>
+<<declare $hasTalkedToStatue = false as bool>>
+The mayor of Harmonyville has been murdered, and the detective assigned to the case must interview four suspects, each of whom has a motive and an alibi. Can you help the detective solve the case?
+===
+title: Acuse
+position: 568,1217
+---
+-> The Mayor's Wife suffocated him to inherit his power.
+    <<jump NoWin>>
+-> The Mayor's Mistress poisoned his food out of jealousy and spite.
+    <<jump NoWin>>
+-> The Campaign Manager drowned him to seize power of Harmonyville.
+    <<jump NoWin>>
+-> The Chief of Staff stabbed him in the back to obtain his wealth.
+    <<jump win>>
+===
+title: win
+position: 831,1215
+---
+You solved the mystery! You win!
+===
+title: MayorsWife
+position: -717,323
+---
+<<declare $MayorsWifeOptionAClicked = false as bool>>
+<<declare $MayorsWifeOptionBClicked = false as bool>>
+<<declare $MayorsWifeOptionCClicked = false as bool>>
+<<declare $MayorsWifeOptionDClicked = false as bool>>
 
-Do you accept the task of talking to the citizens of Harmonyville to find out who dunnit?
--> Yes
--> Maybe
--> Nah, I think I'll take a nap.
+<<if $hasTalkedToMayorsWife==false>>
+    <<set $hasTalkedToMayorsWife=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+    Detective Jones: I'm Detective Jones, and I'm here to investigate the murder of the mayor. Can you tell me what happened?
+<<else>>
+    Detective Jones: Can you tell me what happened again?
+<<endif>>
+Mayor's Wife: I was at home that night. I went to bed early, and I didn't hear anything until the next morning when the police came to my door.
+<<jump MayorsWifeQuestions>>
+===
+title: MayorsWifeQuestions
+position: -433,317
+---
+-> Where were you when the mayor was killed? <<if $MayorsWifeOptionAClicked == false>>
+    <<jump MayorsWifeResponseA>>
+-> Did you have any reason to want the mayor dead? <<if $MayorsWifeOptionBClicked == false>>
+    <<jump MayorsWifeResponseB>>
+-> Did you see or hear anything suspicious that night? <<if $MayorsWifeOptionCClicked == false>>
+    <<jump MayorsWifeResponseC>>
+-> Do you know who could have killed the mayor? <<if $MayorsWifeOptionDClicked == false>>
+    <<jump MayorsWifeResponseD>>
+-> Thank you for your time. Your responses have been noted.
+    <<set $MayorsWifeOptionAClicked=false>>
+    <<set $MayorsWifeOptionBClicked=false>>
+    <<set $MayorsWifeOptionCClicked=false>>
+    <<set $MayorsWifeOptionDClicked=false>>
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+    -> I still need more information. Lets see what else I can find out.
+    -> I'd like to accuse a suspect.
+        <<jump Acuse>>
+<<endif>>
+===
+title: MayorsWifeResponseA
+position: 137,61
+---
+Mayor's Wife: I was at home, like I said.
+<<set $MayorsWifeOptionAClicked=true>>
+<<jump MayorsWifeQuestions>>
+===
+title: MayorsWifeResponseB
+position: 133,224
+---
+Mayor's Wife: No, of course not. I loved my husband very much.
+<<set $MayorsWifeOptionBClicked=true>>
+<<jump MayorsWifeQuestions>>
+===
+title: MayorsWifeResponseC
+position: 131,384
+---
+Mayor's Wife: No, I didn't. I was asleep.
+<<set $MayorsWifeOptionCClicked=true>>
+<<jump MayorsWifeQuestions>>
+===
+title: MayorsWifeResponseD
+position: 121,520
+---
+Mayor's Wife: No, I don't. I can't imagine who would want to hurt him.
+<<set $MayorsWifeOptionDClicked=true>>
+<<jump MayorsWifeQuestions>>
+===
+title: MayorsMistress
+position: -733,955
+---
+<<declare $MayorsMistressOptionAClicked = false as bool>>
+<<declare $MayorsMistressOptionBClicked = false as bool>>
+<<declare $MayorsMistressOptionCClicked = false as bool>>
 
-Excellent. Well, off you go then.
+<<if $hasTalkedToMayorsMistress==false>>
+    <<set $hasTalkedToMayorsMistress=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+    Detective Jones: I'm Detective Jones, and I'm here to investigate the murder of the mayor. Can you tell me what happened?
+<<else>>
+    Detective Jones: Can you tell me what happened again?
+<<endif>>
+Mayor's Mistress: I was also at home that night. I was watching TV when I heard the news about the mayor's murder. I was shocked and horrified.
+<<jump MayorsMistressQuestions>>
+===
+title: MayorsMistressQuestions
+position: -420,961
+---
+-> Did you have any reason to want the mayor dead? <<if $MayorsMistressOptionAClicked == false>>
+    <<jump MayorsMistressResponseA>>
+-> Where were you when the mayor was killed? <<if $MayorsMistressOptionBClicked == false>>
+    <<jump MayorsMistressResponseB>>
+-> Do you know who could have killed the mayor? <<if $MayorsMistressOptionCClicked == false>>
+    <<jump MayorsMistressResponseC>>
+    
+-> Thank you for your time. Your responses have been noted.
+    <<set $MayorsMistressOptionAClicked = false>>
+    <<set $MayorsMistressOptionBClicked = false>>
+    <<set $MayorsMistressOptionCClicked = false>>
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+    -> I still need more information. Lets see what else I can find out.
+    -> I'd like to accuse a suspect.
+        <<jump Acuse>>
+<<endif>>
+===
+title: MayorsMistressResponseA
+position: 70,678
+---
+Mayor's Mistress: No, I didn't. I was in love with the mayor. I would never have hurt him.
+<<set $MayorsMistressOptionAClicked = true>>
+<<jump MayorsMistressQuestions>>
+===
+title: MayorsMistressResponseB
+position: 69,855
+---
+Mayor's Mistress: I was at home, too.
+<<set $MayorsMistressOptionBClicked = true>>
+<<jump MayorsMistressQuestions>>
+===
+title: MayorsMistressResponseC
+position: 63,1029
+---
+Mayor's Mistress: No, I don't. I'm as shocked and horrified as everyone else.
+<<set $MayorsMistressOptionCClicked = true>>
+<<jump MayorsMistressQuestions>>
+===
+
+title: MayorsCampaignManager
+position: -720,1529
+---
+<<declare $MayorsCampaignManagerOptionAClicked = false as bool>>
+<<declare $MayorsCampaignManagerOptionBClicked = false as bool>>
+<<declare $MayorsCampaignManagerOptionCClicked = false as bool>>
+<<declare $MayorsCampaignManagerOptionDClicked = false as bool>>
+
+<<if $hasTalkedToMayorsCampaignManager==false>>
+    <<set $hasTalkedToMayorsCampaignManager=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+    Detective Jones: I'm Detective Jones, and I'm here to investigate the murder of the mayor. Can you tell me what happened?
+<<else>>
+    Detective Jones: Can you tell me what happened again?
+<<endif>>
+Mayor's Campaign Manager: I was at the campaign office that night. We were working on the mayor's re-election campaign. We didn't leave the office until after midnight.
+<<jump MayorsCampaignManagerQuestions>>
+===
+title: MayorsCampaignManagerQuestions
+position: -436,1531
+---
+-> Did you have any reason to want the mayor dead? <<if $MayorsCampaignManagerOptionAClicked == false>>
+    <<jump MayorsCampaignManagerResponseA>>
+-> Where were you when the mayor was killed? <<if $MayorsCampaignManagerOptionBClicked == false>>
+    <<jump MayorsCampaignManagerResponseB>>
+-> Did you see or hear anything suspicious that night? <<if $MayorsCampaignManagerOptionCClicked == false>>
+    <<jump MayorsCampaignManagerResponseC>>
+-> Do you know who could have killed the mayor? <<if $MayorsCampaignManagerOptionDClicked == false>>
+    <<jump MayorsCampaignManagerResponseD>>
+-> Thank you for your time. Your responses have been noted.
+    <<set $MayorsCampaignManagerOptionAClicked=false>>
+    <<set $MayorsCampaignManagerOptionBClicked=false>>
+    <<set $MayorsCampaignManagerOptionCClicked=false>>
+    <<set $MayorsCampaignManagerOptionDClicked=false>>
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+    -> I still need more information. Lets see what else I can find out.
+    -> I'd like to accuse a suspect.
+        <<jump Acuse>>
+<<endif>>
+===
+title: MayorsCampaignManagerResponseA
+position: 49,1257
+---
+Mayor's Campaign Manager: No, I didn't. The mayor was my boss, and I respected him.
+<<set $MayorsCampaignManagerOptionAClicked=true>>
+<<jump MayorsCampaignManagerQuestions>>
+===
+title: MayorsCampaignManagerResponseB
+position: 37,1432
+---
+Mayor's Campaign Manager: We were at the campaign office, like I said.
+<<set $MayorsCampaignManagerOptionBClicked=true>>
+<<jump MayorsCampaignManagerQuestions>>
+===
+title: MayorsCampaignManagerResponseC
+position: 47,1764
+---
+Mayor's Campaign Manager: No, we didn't. We were working on the campaign.
+<<set $MayorsCampaignManagerOptionCClicked=true>>
+<<jump MayorsCampaignManagerQuestions>>
+===
+title: MayorsCampaignManagerResponseD
+position: 43,1588
+---
+Mayor's Campaign Manager: I don't know. It could have been anyone.
+<<set $MayorsCampaignManagerOptionDClicked=true>>
+<<jump MayorsCampaignManagerQuestions>>
+===
+title: Statue
+position: 832,974
+---
+Detective Jones: Can you tell me what you saw?
+Statue: I saw the mayor's chief of staff kill him.
+Detective Jones: You did???
+Statue: Yes, I did. I was standing right here when he ran up on him. He was carrying a shiny jawn, and he plunged it into the mayor.
+Detective Jones: Why did he do it?
+Statue: He was whispering all angry like that the mayor had refused to give him a promotion. He also said he wanted to get his hands on the mayor's money.
+Detective Jones: Thank you, statue! You've been a tremendous help.
+Statue: No prob my G.
+Detective Jones:Why didn't you say anything sooner?
+Statue: I was afraid. I didn't want to get hurt.
+Detective Jones: I understand. But you did the right thing by coming forward. You helped me to solve the case and bring the killer to justice.
+Statue: Thank you, Detective. I'm glad that I could help.
+<<jump win>>
+===
+title: MayorsChiefOfStaff
+position: -741,2238
+---
+<<declare $MayorsChiefOfStaffOptionAClicked = false as bool>>
+<<declare $MayorsChiefOfStaffOptionBClicked = false as bool>>
+<<declare $MayorsChiefOfStaffOptionCClicked = false as bool>>
+<<declare $MayorsChiefOfStaffOptionDClicked = false as bool>>
+
+<<if $hasTalkedToMayorsChiefOfStaff==false>>
+    <<set $hasTalkedToMayorsChiefOfStaff=true>>
+    <<addToNPCsVistedCount DialogueManager>>
+    Detective Jones: I'm Detective Jones, and I'm here to investigate the murder of the mayor. Can you tell me what happened?
+<<else>>
+    Detective Jones: Can you tell me what happened again?
+<<endif>>
+Mayor's Chief of Staff: I was with the mayor that night. We were working late on a speech he was giving the next day. The mayor left the office around 11:00 PM, and I left about 15 minutes later.
+<<jump MayorsChiefOfStaffQuestions>>
+===
+title: MayorsChiefOfStaffQuestions
+position: -452,2242
+---
+-> Did you have any reason to want the mayor dead? <<if $MayorsChiefOfStaffOptionAClicked == false>>
+    <<jump MayorsChiefOfStaffResponseA>>
+-> Where were you when the mayor was killed? <<if $MayorsChiefOfStaffOptionBClicked == false>>
+    <<jump MayorsChiefOfStaffResponseB>>
+-> Did you see or hear anything suspicious that night? <<if $MayorsChiefOfStaffOptionCClicked == false>>
+    <<jump MayorsChiefOfStaffResponseC>>
+-> Do you know who could have killed the mayor? <<if $MayorsChiefOfStaffOptionDClicked == false>>
+    <<jump MayorsChiefOfStaffResponseD>>
+-> Thank you for your time. Your responses have been noted.
+    <<set $MayorsChiefOfStaffOptionAClicked=false>>
+    <<set $MayorsChiefOfStaffOptionBClicked=false>>
+    <<set $MayorsChiefOfStaffOptionCClicked=false>>
+    <<set $MayorsChiefOfStaffOptionDClicked=false>>
+<<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
+    -> I still need more information. Lets see what else I can find out.
+    -> I'd like to accuse a suspect.
+        <<jump Acuse>>
+<<endif>>
+===
+title: MayorsChiefOfStaffResponseA
+position: -18,1934
+---
+Mayor's Chief of Staff: No, I didn't. I was loyal to the mayor until the end.
+<<set $MayorsChiefOfStaffOptionAClicked=true>>
+<<jump MayorsChiefOfStaffQuestions>>
+===
+title: MayorsChiefOfStaffResponseB
+position: -14,2086
+---
+Mayor's Chief of Staff: I was on my way to meet the mayor, like I said.
+<<set $MayorsChiefOfStaffOptionBClicked=true>>
+<<jump MayorsChiefOfStaffQuestions>>
+===
+title: MayorsChiefOfStaffResponseC
+position: -17,2248
+---
+Mayor's Chief of Staff: No, I didn't. We were working on the speech.
+<<set $MayorsChiefOfStaffOptionCClicked=true>>
+<<jump MayorsChiefOfStaffQuestions>>
+===
+title: MayorsChiefOfStaffResponseD
+position: -3,2422
+---
+Mayor's Chief of Staff: I don't know. It could have been anyone.
+<<set $MayorsChiefOfStaffOptionDClicked=true>>
+<<jump MayorsChiefOfStaffQuestions>>
+===
+title: NoWin
+position: 569,1404
+---
+Ghost of Harmonyville Mayor: So close but no cigar. Try accusing someone else or talking to the statue.
 ===
