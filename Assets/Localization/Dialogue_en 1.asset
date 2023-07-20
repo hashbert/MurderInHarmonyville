@@ -24,756 +24,1222 @@ MonoBehaviour:
       alibi. Can you help the detective solve the case?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745766
+      - rid: 6889599682972745917
   - m_Id: 281965088768
     m_Localized: The Mayor's Wife suffocated him to inherit his power.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745767
+      - rid: 6889599682972745918
   - m_Id: 281965088769
     m_Localized: The Mayor's Mistress poisoned his food out of jealousy and spite.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745768
+      - rid: 6889599682972745919
   - m_Id: 281965088770
     m_Localized: The Campaign Manager drowned him to seize power of Harmonyville.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745769
+      - rid: 6889599682972745920
   - m_Id: 281965088771
     m_Localized: The Chief of Staff stabbed him in the back to obtain his wealth.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745770
+      - rid: 6889599682972745921
   - m_Id: 281965088772
     m_Localized: You solved the mystery! You win!
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745771
+      - rid: 6889599682972745849
   - m_Id: 281965088773
     m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
       the murder of the mayor. Can you tell me what happened?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745772
+      - rid: 6889599682972745922
   - m_Id: 281965088774
     m_Localized: 'Detective Jones: Can you tell me what happened again?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745773
+      - rid: 6889599682972745923
   - m_Id: 281965088775
     m_Localized: 'Mayor''s Wife: I was at home that night. I went to bed early, and
       I didn''t hear anything until the next morning when the police came to my door.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745774
+      - rid: 6889599682972745924
   - m_Id: 281965088776
     m_Localized: Where were you when the mayor was killed?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745775
+      - rid: 6889599682972745925
   - m_Id: 281965088777
-    m_Localized: Did you have any reason to want the mayor dead?
-    m_Metadata:
-      m_Items:
-      - rid: 6889599682972745776
-  - m_Id: 281965088778
     m_Localized: Did you see or hear anything suspicious that night?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745777
-  - m_Id: 281965088779
+      - rid: 6889599682972745926
+  - m_Id: 281965088778
     m_Localized: Do you know who could have killed the mayor?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745778
-  - m_Id: 281965088780
+      - rid: 6889599682972745927
+  - m_Id: 281965088779
     m_Localized: Thank you for your time. Your responses have been noted.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745779
-  - m_Id: 281965088781
+      - rid: 6889599682972745928
+  - m_Id: 281965088780
     m_Localized: I still need more information. Lets see what else I can find out.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745780
+      - rid: 6889599682972745929
+  - m_Id: 281965088781
+    m_Localized: I'd like to accuse a suspect.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745930
   - m_Id: 281965088782
     m_Localized: I'd like to accuse a suspect.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745781
+      - rid: 6889599682972745859
   - m_Id: 281965088783
     m_Localized: 'Mayor''s Wife: I was at home, like I said.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745782
+      - rid: 6889599682972745860
   - m_Id: 281965088784
     m_Localized: 'Mayor''s Wife: No, of course not. I loved my husband very much.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745783
+      - rid: 6889599682972745861
   - m_Id: 281965088785
     m_Localized: 'Mayor''s Wife: No, I didn''t. I was asleep.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745784
+      - rid: 6889599682972745862
   - m_Id: 281965088786
     m_Localized: 'Mayor''s Wife: No, I don''t. I can''t imagine who would want to
       hurt him.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745785
+      - rid: 6889599682972745863
   - m_Id: 281965088787
-    m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
-      the murder of the mayor. Can you tell me what happened?'
+    m_Localized: 'Mayor''s Mistress: I was waiting for him at the motel that night.
+      I was watching TV when I saw the news about the mayor''s murder. I was so scared
+      and came here as quickly as I could to help my darling.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745786
+      - rid: 6889599682972745931
   - m_Id: 281965088788
-    m_Localized: 'Detective Jones: Can you tell me what happened again?'
+    m_Localized: 'Detective Jones: Your darling..? That''s pretty bold of you to
+      come to the crime scene knowing that his wife would be here. Are you attempting
+      to look innocent?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745787
+      - rid: 6889599682972745932
   - m_Id: 281965088789
-    m_Localized: 'Mayor''s Mistress: I was also at home that night. I was watching
-      TV when I heard the news about the mayor''s murder. I was shocked and horrified.'
+    m_Localized: 'Mayor''s Mistress: No, I was in love with my Booboo. I would never
+      have hurt him, but maybe his demanding wife would.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745788
+      - rid: 6889599682972745933
   - m_Id: 281965088790
     m_Localized: Did you have any reason to want the mayor dead?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745789
+      - rid: 6889599682972745867
   - m_Id: 281965088791
     m_Localized: Where were you when the mayor was killed?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745790
+      - rid: 6889599682972745868
   - m_Id: 281965088792
     m_Localized: Do you know who could have killed the mayor?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745791
+      - rid: 6889599682972745869
   - m_Id: 281965088793
     m_Localized: Thank you for your time. Your responses have been noted.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745792
+      - rid: 6889599682972745870
   - m_Id: 281965088794
     m_Localized: I still need more information. Lets see what else I can find out.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745793
+      - rid: 6889599682972745871
   - m_Id: 281965088795
     m_Localized: I'd like to accuse a suspect.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745794
+      - rid: 6889599682972745872
   - m_Id: 281965088796
     m_Localized: 'Mayor''s Mistress: No, I didn''t. I was in love with the mayor.
       I would never have hurt him.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745795
+      - rid: 6889599682972745873
   - m_Id: 281965088797
     m_Localized: 'Mayor''s Mistress: I was at home, too.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745796
+      - rid: 6889599682972745874
   - m_Id: 281965088798
     m_Localized: 'Mayor''s Mistress: No, I don''t. I''m as shocked and horrified
       as everyone else.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745797
+      - rid: 6889599682972745875
   - m_Id: 281965088799
     m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
       the murder of the mayor. Can you tell me what happened?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745798
+      - rid: 6889599682972745876
   - m_Id: 281965088800
     m_Localized: 'Detective Jones: Can you tell me what happened again?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745799
+      - rid: 6889599682972745877
   - m_Id: 281965088801
     m_Localized: 'Mayor''s Campaign Manager: I was at the campaign office that night.
       We were working on the mayor''s re-election campaign. We didn''t leave the
       office until after midnight.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745800
+      - rid: 6889599682972745878
   - m_Id: 281965088802
-    m_Localized: Did you have any reason to want the mayor dead?
+    m_Localized: I still need more information. Lets see what else I can find out.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745801
+      - rid: 6889599682972745934
   - m_Id: 281965088803
-    m_Localized: Where were you when the mayor was killed?
+    m_Localized: I'd like to accuse a suspect.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745802
+      - rid: 6889599682972745935
   - m_Id: 281965088804
     m_Localized: Did you see or hear anything suspicious that night?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745803
+      - rid: 6889599682972745881
   - m_Id: 281965088805
     m_Localized: Do you know who could have killed the mayor?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745804
+      - rid: 6889599682972745882
   - m_Id: 281965088806
     m_Localized: Thank you for your time. Your responses have been noted.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745805
+      - rid: 6889599682972745883
   - m_Id: 281965088807
     m_Localized: I still need more information. Lets see what else I can find out.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745806
+      - rid: 6889599682972745884
   - m_Id: 281965088808
     m_Localized: I'd like to accuse a suspect.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745807
+      - rid: 6889599682972745885
   - m_Id: 281965088809
     m_Localized: 'Mayor''s Campaign Manager: No, I didn''t. The mayor was my boss,
       and I respected him.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745808
+      - rid: 6889599682972745886
   - m_Id: 281965088810
     m_Localized: 'Mayor''s Campaign Manager: We were at the campaign office, like
       I said.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745809
+      - rid: 6889599682972745887
   - m_Id: 281965088811
     m_Localized: 'Mayor''s Campaign Manager: No, we didn''t. We were working on the
       campaign.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745810
+      - rid: 6889599682972745888
   - m_Id: 281965088812
     m_Localized: 'Mayor''s Campaign Manager: I don''t know. It could have been anyone.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745811
+      - rid: 6889599682972745889
   - m_Id: 281965088813
-    m_Localized: 'Detective Jones: Can you tell me what you saw?'
-    m_Metadata:
-      m_Items:
-      - rid: 6889599682972745812
-  - m_Id: 281965088814
-    m_Localized: 'Statue: I saw the mayor''s chief of staff kill him.'
-    m_Metadata:
-      m_Items:
-      - rid: 6889599682972745813
-  - m_Id: 281965088815
-    m_Localized: 'Detective Jones: You did???'
-    m_Metadata:
-      m_Items:
-      - rid: 6889599682972745814
-  - m_Id: 281965088816
-    m_Localized: 'Statue: Yes, I did. I was standing right here when he ran up on
-      him. He was carrying a shiny jawn, and he plunged it into the mayor.'
-    m_Metadata:
-      m_Items:
-      - rid: 6889599682972745815
-  - m_Id: 281965088817
-    m_Localized: 'Detective Jones: Why did he do it?'
-    m_Metadata:
-      m_Items:
-      - rid: 6889599682972745816
-  - m_Id: 281965088818
     m_Localized: 'Statue: He was whispering all angry like that the mayor had refused
       to give him a promotion. He also said he wanted to get his hands on the mayor''s
       money.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745817
-  - m_Id: 281965088819
+      - rid: 6889599682972745936
+  - m_Id: 281965088814
     m_Localized: 'Detective Jones: Thank you, statue! You''ve been a tremendous help.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745818
+      - rid: 6889599682972745937
+  - m_Id: 281965088815
+    m_Localized: 'Statue: No prob my G.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745938
+  - m_Id: 281965088816
+    m_Localized: Detective Jones:Why didn't you say anything sooner?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745939
+  - m_Id: 281965088817
+    m_Localized: 'Statue: I was afraid. I didn''t want to get hurt.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745940
+  - m_Id: 281965088818
+    m_Localized: 'Detective Jones: I understand. But you did the right thing by coming
+      forward. You helped me to solve the case and bring the killer to justice.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745941
+  - m_Id: 281965088819
+    m_Localized: 'Statue: Thank you, Detective. I''m glad that I could help.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745942
   - m_Id: 281965088820
     m_Localized: 'Statue: No prob my G.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745819
+      - rid: 6889599682972745897
   - m_Id: 281965088821
     m_Localized: Detective Jones:Why didn't you say anything sooner?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745820
+      - rid: 6889599682972745898
   - m_Id: 281965088822
     m_Localized: 'Statue: I was afraid. I didn''t want to get hurt.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745821
+      - rid: 6889599682972745899
   - m_Id: 281965088823
     m_Localized: 'Detective Jones: I understand. But you did the right thing by coming
       forward. You helped me to solve the case and bring the killer to justice.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745822
+      - rid: 6889599682972745900
   - m_Id: 281965088824
     m_Localized: 'Statue: Thank you, Detective. I''m glad that I could help.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745823
+      - rid: 6889599682972745901
   - m_Id: 281965088825
     m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
       the murder of the mayor. Can you tell me what happened?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745824
+      - rid: 6889599682972745902
   - m_Id: 281965088826
     m_Localized: 'Detective Jones: Can you tell me what happened again?'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745825
+      - rid: 6889599682972745903
   - m_Id: 281965088827
     m_Localized: 'Mayor''s Chief of Staff: I was with the mayor that night. We were
       working late on a speech he was giving the next day. The mayor left the office
       around 11:00 PM, and I left about 15 minutes later.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745826
+      - rid: 6889599682972745904
   - m_Id: 281965088828
-    m_Localized: Did you have any reason to want the mayor dead?
+    m_Localized: I still need more information. Lets see what else I can find out.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745827
+      - rid: 6889599682972745943
   - m_Id: 281965088829
-    m_Localized: Where were you when the mayor was killed?
+    m_Localized: I'd like to accuse a suspect.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745828
+      - rid: 6889599682972745944
   - m_Id: 281965088830
     m_Localized: Did you see or hear anything suspicious that night?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745829
+      - rid: 6889599682972745907
   - m_Id: 281965088831
     m_Localized: Do you know who could have killed the mayor?
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745830
+      - rid: 6889599682972745908
   - m_Id: 281965088832
     m_Localized: Thank you for your time. Your responses have been noted.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745831
+      - rid: 6889599682972745909
   - m_Id: 281965088833
     m_Localized: I still need more information. Lets see what else I can find out.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745832
+      - rid: 6889599682972745910
   - m_Id: 281965088834
     m_Localized: I'd like to accuse a suspect.
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745833
+      - rid: 6889599682972745911
   - m_Id: 281965088835
     m_Localized: 'Mayor''s Chief of Staff: No, I didn''t. I was loyal to the mayor
       until the end.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745834
+      - rid: 6889599682972745912
   - m_Id: 281965088836
     m_Localized: 'Mayor''s Chief of Staff: I was on my way to meet the mayor, like
       I said.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745835
+      - rid: 6889599682972745913
   - m_Id: 281965088837
     m_Localized: 'Mayor''s Chief of Staff: No, I didn''t. We were working on the
       speech.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745836
+      - rid: 6889599682972745914
   - m_Id: 281965088838
     m_Localized: 'Mayor''s Chief of Staff: I don''t know. It could have been anyone.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745837
+      - rid: 6889599682972745915
   - m_Id: 281965088839
     m_Localized: 'Ghost of Harmonyville Mayor: So close but no cigar. Try accusing
       someone else or talking to the statue.'
     m_Metadata:
       m_Items:
-      - rid: 6889599682972745838
+      - rid: 6889599682972745916
+  - m_Id: 189472543985664
+    m_Localized: You solved the mystery! You win!
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745945
+  - m_Id: 189472606900224
+    m_Localized: 'Mayor''s Wife: I was at home, like I said.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745946
+  - m_Id: 189472606900225
+    m_Localized: 'Mayor''s Wife: No, I didn''t. I was asleep.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745947
+  - m_Id: 189472606900226
+    m_Localized: 'Mayor''s Wife: No, but he was always working late with good heavens
+      who knows.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745948
+  - m_Id: 189472606900227
+    m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
+      the murder. Where were you when the mayor was killed?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745949
+  - m_Id: 189472606900228
+    m_Localized: 'Detective Jones: Where were you when the mayor was killed?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745950
+  - m_Id: 189472606900229
+    m_Localized: 'Detective Jones: Are you saying that the wife did it?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745951
+  - m_Id: 189472606900230
+    m_Localized: "Mayor's Mistress: If that's what you heard then\u2026"
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745952
+  - m_Id: 189472606900231
+    m_Localized: I still need more information. Lets see what else I can find out.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745953
+  - m_Id: 189472606900232
+    m_Localized: I'd like to accuse a suspect.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745954
+  - m_Id: 189472606900233
+    m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
+      the murder of the mayor. Can you tell me what happened?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745955
+  - m_Id: 189472606900234
+    m_Localized: 'Detective Jones: Can you tell me what happened again?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745956
+  - m_Id: 189472606900235
+    m_Localized: 'Mayor''s Campaign Manager: I was at the campaign office that night.
+      We didn''t leave the office until after midnight. The mayor left so I had to
+      lock up.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745957
+  - m_Id: 189472606900236
+    m_Localized: Did you have any reason to want the mayor dead?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745958
+  - m_Id: 189472606900237
+    m_Localized: Where were you when the mayor was killed?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745959
+  - m_Id: 189472606900238
+    m_Localized: Did you see or hear anything suspicious that night?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745960
+  - m_Id: 189472606900239
+    m_Localized: Do you know who could have killed the mayor?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745961
+  - m_Id: 189472606900240
+    m_Localized: Thank you for your time. Your responses have been noted.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745962
+  - m_Id: 189472606900241
+    m_Localized: 'Mayor''s Campaign Manager: No, I didn''t. The mayor was my boss,
+      and I respected him.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745963
+  - m_Id: 189472606900242
+    m_Localized: 'Mayor''s Campaign Manager: I was locking up the campaign office,
+      like I said. When I caught him I found him underneath the statue with a knife
+      in him.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745964
+  - m_Id: 189472606900243
+    m_Localized: 'Mayor''s Campaign Manager: No, I didn''t. If only that statue had
+      eyes and ears then maybe we''d get some answer you know?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745965
+  - m_Id: 189472606900244
+    m_Localized: 'Mayor''s Campaign Manager: I don''t know. I just feel bad for his
+      wife. I know they were having issues, but still she didn''t deserve to have
+      this happen to her.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745966
+  - m_Id: 189472606900245
+    m_Localized: 'Detective Jones: Can you tell me what you saw?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745967
+  - m_Id: 189472606900246
+    m_Localized: 'Statue: I saw the mayor''s chief of staff kill him.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745968
+  - m_Id: 189472606900247
+    m_Localized: 'Detective Jones: You did???'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745969
+  - m_Id: 189472606900248
+    m_Localized: 'Statue: Yes, I did. I was standing right here when he ran up on
+      him. He was carrying a shiny jawn, and he plunged it into the mayor.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745970
+  - m_Id: 189472606900249
+    m_Localized: 'Detective Jones: Why did he do it?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745971
+  - m_Id: 189472606900250
+    m_Localized: 'Detective Jones: I''m Detective Jones, and I''m here to investigate
+      the murder of the mayor. Can you tell me what happened?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745972
+  - m_Id: 189472606900251
+    m_Localized: 'Detective Jones: Can you tell me what happened again?'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745973
+  - m_Id: 189472606900252
+    m_Localized: 'Mayor''s Chief of Staff: We were working late on a speech he was
+      giving the next day. The mayor left the office around 11:00 PM, and I left
+      about 15 minutes later.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745974
+  - m_Id: 189472606900253
+    m_Localized: How was your relationship with the mayor? Would you want him dead?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745975
+  - m_Id: 189472606900254
+    m_Localized: Where were you when the mayor was killed?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745976
+  - m_Id: 189472606900255
+    m_Localized: Did you see or hear anything suspicious that night?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745977
+  - m_Id: 189472606900256
+    m_Localized: Do you know who could have killed the mayor?
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745978
+  - m_Id: 189472606900257
+    m_Localized: Thank you for your time. Your responses have been noted.
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745979
+  - m_Id: 189472606900258
+    m_Localized: 'Mayor''s Chief of Staff: No, never. I was loyal to the mayor until
+      the end. To the very end.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745980
+  - m_Id: 189472606900259
+    m_Localized: 'Mayor''s Chief of Staff: I was grabbing the keys to lock up the
+      office.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745981
+  - m_Id: 189472606900260
+    m_Localized: 'Mayor''s Chief of Staff: No, I didn''t. I was too focused on work.
+      I really need the money to pay my bills. I have a family.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745982
+  - m_Id: 189472606900261
+    m_Localized: 'Mayor''s Chief of Staff: I know his wife was cheating on him with
+      our campaign manager, but I don''t know who you heard that from... Wasn''t
+      me.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745983
+  - m_Id: 189472606900262
+    m_Localized: 'Ghost of Harmonyville Mayor: So close but no cigar. Try accusing
+      someone else or seeing if anyone had eyes on the murder.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745984
+  - m_Id: 189472606900263
+    m_Localized: "Mayor\u2019s Wife: No No No, How dare you!"
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745985
+  - m_Id: 189472606900264
+    m_Localized: 'Mayor''s Mistress: WHY, would I hurt my Booboo. Go ask his wife!'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745986
+  - m_Id: 189472606900265
+    m_Localized: 'Mayor''s Campaign Manager: What?! He was the best boss I ever had!
+      So far at least... Go ask his Mistress.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745987
+  - m_Id: 189472606900266
+    m_Localized: 'Mayor''s Chief of Staff: Wait... What... How''d you know it was
+      me?! Darn, that loose lipped manager.'
+    m_Metadata:
+      m_Items:
+      - rid: 6889599682972745988
   references:
     version: 2
     RefIds:
-    - rid: 6889599682972745766
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Start
-        tags: []
-    - rid: 6889599682972745767
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Acuse
-        tags: []
-    - rid: 6889599682972745768
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Acuse
-        tags: []
-    - rid: 6889599682972745769
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Acuse
-        tags: []
-    - rid: 6889599682972745770
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Acuse
-        tags: []
-    - rid: 6889599682972745771
+    - rid: 6889599682972745849
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: win
         tags: []
-    - rid: 6889599682972745772
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWife
-        tags: []
-    - rid: 6889599682972745773
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWife
-        tags: []
-    - rid: 6889599682972745774
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWife
-        tags: []
-    - rid: 6889599682972745775
+    - rid: 6889599682972745859
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsWifeQuestions
         tags: []
-    - rid: 6889599682972745776
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWifeQuestions
-        tags: []
-    - rid: 6889599682972745777
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWifeQuestions
-        tags: []
-    - rid: 6889599682972745778
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWifeQuestions
-        tags: []
-    - rid: 6889599682972745779
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWifeQuestions
-        tags: []
-    - rid: 6889599682972745780
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWifeQuestions
-        tags: []
-    - rid: 6889599682972745781
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsWifeQuestions
-        tags: []
-    - rid: 6889599682972745782
+    - rid: 6889599682972745860
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsWifeResponseA
         tags: []
-    - rid: 6889599682972745783
+    - rid: 6889599682972745861
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsWifeResponseB
         tags: []
-    - rid: 6889599682972745784
+    - rid: 6889599682972745862
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsWifeResponseC
         tags: []
-    - rid: 6889599682972745785
+    - rid: 6889599682972745863
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsWifeResponseD
         tags: []
-    - rid: 6889599682972745786
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsMistress
-        tags: []
-    - rid: 6889599682972745787
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsMistress
-        tags: []
-    - rid: 6889599682972745788
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsMistress
-        tags: []
-    - rid: 6889599682972745789
+    - rid: 6889599682972745867
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressQuestions
         tags: []
-    - rid: 6889599682972745790
+    - rid: 6889599682972745868
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressQuestions
         tags: []
-    - rid: 6889599682972745791
+    - rid: 6889599682972745869
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressQuestions
         tags: []
-    - rid: 6889599682972745792
+    - rid: 6889599682972745870
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressQuestions
         tags: []
-    - rid: 6889599682972745793
+    - rid: 6889599682972745871
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressQuestions
         tags: []
-    - rid: 6889599682972745794
+    - rid: 6889599682972745872
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressQuestions
         tags: []
-    - rid: 6889599682972745795
+    - rid: 6889599682972745873
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressResponseA
         tags: []
-    - rid: 6889599682972745796
+    - rid: 6889599682972745874
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressResponseB
         tags: []
-    - rid: 6889599682972745797
+    - rid: 6889599682972745875
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsMistressResponseC
         tags: []
-    - rid: 6889599682972745798
+    - rid: 6889599682972745876
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManager
         tags: []
-    - rid: 6889599682972745799
+    - rid: 6889599682972745877
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManager
         tags: []
-    - rid: 6889599682972745800
+    - rid: 6889599682972745878
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManager
         tags: []
-    - rid: 6889599682972745801
+    - rid: 6889599682972745881
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerQuestions
         tags: []
-    - rid: 6889599682972745802
+    - rid: 6889599682972745882
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerQuestions
         tags: []
-    - rid: 6889599682972745803
+    - rid: 6889599682972745883
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerQuestions
         tags: []
-    - rid: 6889599682972745804
+    - rid: 6889599682972745884
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerQuestions
         tags: []
-    - rid: 6889599682972745805
+    - rid: 6889599682972745885
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerQuestions
         tags: []
-    - rid: 6889599682972745806
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsCampaignManagerQuestions
-        tags: []
-    - rid: 6889599682972745807
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsCampaignManagerQuestions
-        tags: []
-    - rid: 6889599682972745808
+    - rid: 6889599682972745886
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerResponseA
         tags: []
-    - rid: 6889599682972745809
+    - rid: 6889599682972745887
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerResponseB
         tags: []
-    - rid: 6889599682972745810
+    - rid: 6889599682972745888
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerResponseC
         tags: []
-    - rid: 6889599682972745811
+    - rid: 6889599682972745889
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsCampaignManagerResponseD
         tags: []
-    - rid: 6889599682972745812
+    - rid: 6889599682972745897
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Statue
         tags: []
-    - rid: 6889599682972745813
+    - rid: 6889599682972745898
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Statue
         tags: []
-    - rid: 6889599682972745814
+    - rid: 6889599682972745899
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Statue
         tags: []
-    - rid: 6889599682972745815
+    - rid: 6889599682972745900
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Statue
         tags: []
-    - rid: 6889599682972745816
+    - rid: 6889599682972745901
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Statue
         tags: []
-    - rid: 6889599682972745817
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745818
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745819
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745820
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745821
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745822
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745823
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: Statue
-        tags: []
-    - rid: 6889599682972745824
+    - rid: 6889599682972745902
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaff
         tags: []
-    - rid: 6889599682972745825
+    - rid: 6889599682972745903
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaff
         tags: []
-    - rid: 6889599682972745826
+    - rid: 6889599682972745904
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaff
         tags: []
-    - rid: 6889599682972745827
+    - rid: 6889599682972745907
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffQuestions
         tags: []
-    - rid: 6889599682972745828
+    - rid: 6889599682972745908
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffQuestions
         tags: []
-    - rid: 6889599682972745829
+    - rid: 6889599682972745909
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffQuestions
         tags: []
-    - rid: 6889599682972745830
+    - rid: 6889599682972745910
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffQuestions
         tags: []
-    - rid: 6889599682972745831
+    - rid: 6889599682972745911
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffQuestions
         tags: []
-    - rid: 6889599682972745832
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsChiefOfStaffQuestions
-        tags: []
-    - rid: 6889599682972745833
-      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
-      data:
-        nodeName: MayorsChiefOfStaffQuestions
-        tags: []
-    - rid: 6889599682972745834
+    - rid: 6889599682972745912
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffResponseA
         tags: []
-    - rid: 6889599682972745835
+    - rid: 6889599682972745913
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffResponseB
         tags: []
-    - rid: 6889599682972745836
+    - rid: 6889599682972745914
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffResponseC
         tags: []
-    - rid: 6889599682972745837
+    - rid: 6889599682972745915
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: MayorsChiefOfStaffResponseD
         tags: []
-    - rid: 6889599682972745838
+    - rid: 6889599682972745916
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: NoWin
+        tags: []
+    - rid: 6889599682972745917
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 6889599682972745918
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6889599682972745919
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6889599682972745920
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6889599682972745921
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Acuse
+        tags: []
+    - rid: 6889599682972745922
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWife
+        tags: []
+    - rid: 6889599682972745923
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWife
+        tags: []
+    - rid: 6889599682972745924
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWife
+        tags: []
+    - rid: 6889599682972745925
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeQuestions
+        tags: []
+    - rid: 6889599682972745926
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeQuestions
+        tags: []
+    - rid: 6889599682972745927
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeQuestions
+        tags: []
+    - rid: 6889599682972745928
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeQuestions
+        tags: []
+    - rid: 6889599682972745929
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeQuestions
+        tags: []
+    - rid: 6889599682972745930
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeQuestions
+        tags: []
+    - rid: 6889599682972745931
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745932
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745933
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745934
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745935
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745936
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745937
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745938
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745939
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745940
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745941
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745942
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745943
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745944
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745945
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Win
+        tags: []
+    - rid: 6889599682972745946
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeResponseA
+        tags: []
+    - rid: 6889599682972745947
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeResponseB
+        tags: []
+    - rid: 6889599682972745948
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsWifeResponseC
+        tags: []
+    - rid: 6889599682972745949
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745950
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745951
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745952
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745953
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745954
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistress
+        tags: []
+    - rid: 6889599682972745955
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManager
+        tags: []
+    - rid: 6889599682972745956
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManager
+        tags: []
+    - rid: 6889599682972745957
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManager
+        tags: []
+    - rid: 6889599682972745958
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745959
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745960
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745961
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745962
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerQuestions
+        tags: []
+    - rid: 6889599682972745963
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerResponseA
+        tags: []
+    - rid: 6889599682972745964
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerResponseB
+        tags: []
+    - rid: 6889599682972745965
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerResponseC
+        tags: []
+    - rid: 6889599682972745966
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerResponseD
+        tags: []
+    - rid: 6889599682972745967
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745968
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745969
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745970
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745971
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Statue
+        tags: []
+    - rid: 6889599682972745972
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaff
+        tags: []
+    - rid: 6889599682972745973
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaff
+        tags: []
+    - rid: 6889599682972745974
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaff
+        tags: []
+    - rid: 6889599682972745975
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745976
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745977
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745978
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745979
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffQuestions
+        tags: []
+    - rid: 6889599682972745980
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffResponseA
+        tags: []
+    - rid: 6889599682972745981
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffResponseB
+        tags: []
+    - rid: 6889599682972745982
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffResponseC
+        tags: []
+    - rid: 6889599682972745983
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffResponseD
+        tags: []
+    - rid: 6889599682972745984
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: NoWin
+        tags: []
+    - rid: 6889599682972745985
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: WifeAccused
+        tags: []
+    - rid: 6889599682972745986
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsMistressAccused
+        tags: []
+    - rid: 6889599682972745987
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsCampaignManagerAccused
+        tags: []
+    - rid: 6889599682972745988
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: MayorsChiefOfStaffAccused
         tags: []
