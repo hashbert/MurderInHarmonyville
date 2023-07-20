@@ -12,16 +12,16 @@ title: Acuse
 position: 568,1216
 ---
 -> The Mayor's Wife suffocated him to inherit his power.
-    <<jump NoWin>>
+    <<jump WifeAccused>>
 -> The Mayor's Mistress poisoned his food out of jealousy and spite.
-    <<jump NoWin>>
+    <<jump MayorsMistressAccused>>
 -> The Campaign Manager drowned him to seize power of Harmonyville.
-    <<jump NoWin>>
+    <<jump MayorsCampaignManagerAccused>>
 -> The Chief of Staff stabbed him in the back to obtain his wealth.
-    <<jump win>>
+    <<jump MayorsChiefOfStaffAccused>>
 ===
-title: win
-position: 831,1215
+title: Win
+position: 1296,1652
 ---
 You solved the mystery! You win!
 ===
@@ -31,7 +31,6 @@ position: -717,323
 <<declare $MayorsWifeOptionAClicked = false as bool>>
 <<declare $MayorsWifeOptionBClicked = false as bool>>
 <<declare $MayorsWifeOptionCClicked = false as bool>>
-<<declare $MayorsWifeOptionDClicked = false as bool>>
 
 <<if $hasTalkedToMayorsWife==false>>
     <<set $hasTalkedToMayorsWife=true>>
@@ -48,17 +47,14 @@ position: -433,317
 ---
 -> Where were you when the mayor was killed? <<if $MayorsWifeOptionAClicked == false>>
     <<jump MayorsWifeResponseA>>
--> Did you have any reason to want the mayor dead? <<if $MayorsWifeOptionBClicked == false>>
+-> Did you see or hear anything suspicious that night? <<if $MayorsWifeOptionBClicked == false>>
     <<jump MayorsWifeResponseB>>
--> Did you see or hear anything suspicious that night? <<if $MayorsWifeOptionCClicked == false>>
+-> Do you know who could have killed the mayor? <<if $MayorsWifeOptionCClicked == false>>
     <<jump MayorsWifeResponseC>>
--> Do you know who could have killed the mayor? <<if $MayorsWifeOptionDClicked == false>>
-    <<jump MayorsWifeResponseD>>
 -> Thank you for your time. Your responses have been noted.
     <<set $MayorsWifeOptionAClicked=false>>
     <<set $MayorsWifeOptionBClicked=false>>
     <<set $MayorsWifeOptionCClicked=false>>
-    <<set $MayorsWifeOptionDClicked=false>>
 <<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
     -> I still need more information. Lets see what else I can find out.
     -> I'd like to accuse a suspect.
@@ -75,83 +71,39 @@ Mayor's Wife: I was at home, like I said.
 title: MayorsWifeResponseB
 position: 133,224
 ---
-Mayor's Wife: No, of course not. I loved my husband very much.
+Mayor's Wife: No, I didn't. I was asleep.
 <<set $MayorsWifeOptionBClicked=true>>
 <<jump MayorsWifeQuestions>>
 ===
 title: MayorsWifeResponseC
 position: 131,383
 ---
-Mayor's Wife: No, I didn't. I was asleep.
+Mayor's Wife: No, but he was always working late with good heavens who knows.
 <<set $MayorsWifeOptionCClicked=true>>
-<<jump MayorsWifeQuestions>>
-===
-title: MayorsWifeResponseD
-position: 121,520
----
-Mayor's Wife: No, I don't. I can't imagine who would want to hurt him.
-<<set $MayorsWifeOptionDClicked=true>>
 <<jump MayorsWifeQuestions>>
 ===
 title: MayorsMistress
 position: -733,955
 ---
-<<declare $MayorsMistressOptionAClicked = false as bool>>
-<<declare $MayorsMistressOptionBClicked = false as bool>>
-<<declare $MayorsMistressOptionCClicked = false as bool>>
-
 <<if $hasTalkedToMayorsMistress==false>>
     <<set $hasTalkedToMayorsMistress=true>>
     <<addToNPCsVistedCount DialogueManager>>
-    Detective Jones: I'm Detective Jones, and I'm here to investigate the murder of the mayor. Can you tell me what happened?
+    Detective Jones: I'm Detective Jones, and I'm here to investigate the murder. Where were you when the mayor was killed?
 <<else>>
-    Detective Jones: Can you tell me what happened again?
+    Detective Jones: Where were you when the mayor was killed?
 <<endif>>
-Mayor's Mistress: I was also at home that night. I was watching TV when I heard the news about the mayor's murder. I was shocked and horrified.
-<<jump MayorsMistressQuestions>>
-===
-title: MayorsMistressQuestions
-position: -420,961
----
--> Did you have any reason to want the mayor dead? <<if $MayorsMistressOptionAClicked == false>>
-    <<jump MayorsMistressResponseA>>
--> Where were you when the mayor was killed? <<if $MayorsMistressOptionBClicked == false>>
-    <<jump MayorsMistressResponseB>>
--> Do you know who could have killed the mayor? <<if $MayorsMistressOptionCClicked == false>>
-    <<jump MayorsMistressResponseC>>
-    
--> Thank you for your time. Your responses have been noted.
-    <<set $MayorsMistressOptionAClicked = false>>
-    <<set $MayorsMistressOptionBClicked = false>>
-    <<set $MayorsMistressOptionCClicked = false>>
+Mayor's Mistress: I was waiting for him at the motel that night. I was watching TV when I saw the news about the mayor's murder. I was so scared and came here as quickly as I could to help my darling.
+Detective Jones: Your darling..? That's pretty bold of you to come to the crime scene knowing that his wife would be here. Are you attempting to look innocent?
+Mayor's Mistress: No, I was in love with my Booboo. I would never have hurt him, but maybe his demanding wife would.
+Detective Jones: Are you saying that the wife did it?
+Mayor's Mistress: If that's what you heard then…
+
 <<if getNPCsVistedCount() >= getMinNPCsVistedCount()>>
     -> I still need more information. Lets see what else I can find out.
     -> I'd like to accuse a suspect.
         <<jump Acuse>>
 <<endif>>
 ===
-title: MayorsMistressResponseA
-position: 70,678
----
-Mayor's Mistress: No, I didn't. I was in love with the mayor. I would never have hurt him.
-<<set $MayorsMistressOptionAClicked = true>>
-<<jump MayorsMistressQuestions>>
-===
-title: MayorsMistressResponseB
-position: 69,855
----
-Mayor's Mistress: I was at home, too.
-<<set $MayorsMistressOptionBClicked = true>>
-<<jump MayorsMistressQuestions>>
-===
-title: MayorsMistressResponseC
-position: 63,1029
----
-Mayor's Mistress: No, I don't. I'm as shocked and horrified as everyone else.
-<<set $MayorsMistressOptionCClicked = true>>
-<<jump MayorsMistressQuestions>>
-===
-
 title: MayorsCampaignManager
 position: -720,1529
 ---
@@ -167,7 +119,7 @@ position: -720,1529
 <<else>>
     Detective Jones: Can you tell me what happened again?
 <<endif>>
-Mayor's Campaign Manager: I was at the campaign office that night. We were working on the mayor's re-election campaign. We didn't leave the office until after midnight.
+Mayor's Campaign Manager: I was at the campaign office that night. We didn't leave the office until after midnight. The mayor left so I had to lock up.
 <<jump MayorsCampaignManagerQuestions>>
 ===
 title: MayorsCampaignManagerQuestions
@@ -202,40 +154,40 @@ Mayor's Campaign Manager: No, I didn't. The mayor was my boss, and I respected h
 title: MayorsCampaignManagerResponseB
 position: 37,1432
 ---
-Mayor's Campaign Manager: We were at the campaign office, like I said.
+Mayor's Campaign Manager: I was locking up the campaign office, like I said. When I caught him I found him underneath the statue with a knife in him.
 <<set $MayorsCampaignManagerOptionBClicked=true>>
 <<jump MayorsCampaignManagerQuestions>>
 ===
 title: MayorsCampaignManagerResponseC
 position: 47,1764
 ---
-Mayor's Campaign Manager: No, we didn't. We were working on the campaign.
+Mayor's Campaign Manager: No, I didn't. If only that statue had eyes and ears then maybe we'd get some answer you know?
 <<set $MayorsCampaignManagerOptionCClicked=true>>
 <<jump MayorsCampaignManagerQuestions>>
 ===
 title: MayorsCampaignManagerResponseD
 position: 43,1588
 ---
-Mayor's Campaign Manager: I don't know. It could have been anyone.
+Mayor's Campaign Manager: I don't know. I just feel bad for his wife. I know they were having issues, but still she didn't deserve to have this happen to her.
 <<set $MayorsCampaignManagerOptionDClicked=true>>
 <<jump MayorsCampaignManagerQuestions>>
 ===
 title: Statue
-position: 832,974
+position: 947,1738
 ---
 Detective Jones: Can you tell me what you saw?
-Statue: I saw the mayor's chief of staff kill him.
-Detective Jones: You did???
-Statue: Yes, I did. I was standing right here when he ran up on him. He was carrying a shiny jawn, and he plunged it into the mayor.
+Statue: I saw the Mayor's Chief of Staff kill him.
+Detective Jones: You did?!
+Statue: Yes, I did. I was standing right here when he ran up on him. He was carrying a shiny jawn, and he plunged it into the Mayor.
 Detective Jones: Why did he do it?
-Statue: He was whispering all angry like that the mayor had refused to give him a promotion. He also said he wanted to get his hands on the mayor's money.
+Statue: He was whispering all angry like that the Mayor had refused to give him a promotion. He also said he wanted to get his hands on the Mayor's money.
 Detective Jones: Thank you, statue! You've been a tremendous help.
 Statue: No prob my G.
-Detective Jones:Why didn't you say anything sooner?
+Detective Jones: Why didn't you say anything sooner?
 Statue: I was afraid. I didn't want to get hurt.
 Detective Jones: I understand. But you did the right thing by coming forward. You helped me to solve the case and bring the killer to justice.
-Statue: Thank you, Detective. I'm glad that I could help.
-<<jump win>>
+Statue: All good my G. I'm here, BIG Chillin, so I'm just glad that I could help.
+<<jump Win>>
 ===
 title: MayorsChiefOfStaff
 position: -741,2238
@@ -252,13 +204,13 @@ position: -741,2238
 <<else>>
     Detective Jones: Can you tell me what happened again?
 <<endif>>
-Mayor's Chief of Staff: I was with the mayor that night. We were working late on a speech he was giving the next day. The mayor left the office around 11:00 PM, and I left about 15 minutes later.
+Mayor's Chief of Staff: We were working late on a speech he was giving the next day. The mayor left the office around 11:00 PM, and I left about 15 minutes later.
 <<jump MayorsChiefOfStaffQuestions>>
 ===
 title: MayorsChiefOfStaffQuestions
 position: -452,2242
 ---
--> Did you have any reason to want the mayor dead? <<if $MayorsChiefOfStaffOptionAClicked == false>>
+-> How was your relationship with the mayor? Would you want him dead? <<if $MayorsChiefOfStaffOptionAClicked == false>>
     <<jump MayorsChiefOfStaffResponseA>>
 -> Where were you when the mayor was killed? <<if $MayorsChiefOfStaffOptionBClicked == false>>
     <<jump MayorsChiefOfStaffResponseB>>
@@ -280,33 +232,57 @@ position: -452,2242
 title: MayorsChiefOfStaffResponseA
 position: -18,1934
 ---
-Mayor's Chief of Staff: No, I didn't. I was loyal to the mayor until the end.
+Mayor's Chief of Staff: No, never. I was loyal to the mayor until the end. To the very end.
 <<set $MayorsChiefOfStaffOptionAClicked=true>>
 <<jump MayorsChiefOfStaffQuestions>>
 ===
 title: MayorsChiefOfStaffResponseB
 position: -14,2086
 ---
-Mayor's Chief of Staff: I was on my way to meet the mayor, like I said.
+Mayor's Chief of Staff: I was grabbing the keys to lock up the office.
 <<set $MayorsChiefOfStaffOptionBClicked=true>>
 <<jump MayorsChiefOfStaffQuestions>>
 ===
 title: MayorsChiefOfStaffResponseC
 position: -17,2248
 ---
-Mayor's Chief of Staff: No, I didn't. We were working on the speech.
+Mayor's Chief of Staff: No, I didn't. I was too focused on work. I really need the money to pay my bills. I have a family.
 <<set $MayorsChiefOfStaffOptionCClicked=true>>
 <<jump MayorsChiefOfStaffQuestions>>
 ===
 title: MayorsChiefOfStaffResponseD
 position: -3,2422
 ---
-Mayor's Chief of Staff: I don't know. It could have been anyone.
+Mayor's Chief of Staff: I know his wife was cheating on him with our campaign manager, but I don't know who you heard that from... Wasn't me.
 <<set $MayorsChiefOfStaffOptionDClicked=true>>
 <<jump MayorsChiefOfStaffQuestions>>
 ===
 title: NoWin
-position: 569,1404
+position: 1301,1289
 ---
-Ghost of Harmonyville Mayor: So close but no cigar. Try accusing someone else or talking to the statue.
+Ghost of Harmonyville Mayor: So close but no cigar. Try accusing someone else or seeing if anyone had eyes on the murder.
+===
+title: WifeAccused
+position: 960,1145
+---
+Mayor’s Wife: No No No, How dare you!
+<<jump NoWin>>
+===
+title: MayorsMistressAccused
+position: 960,1288
+---
+Mayor's Mistress: WHY, would I hurt my Booboo. Go ask his wife!
+<<jump NoWin>>
+===
+title: MayorsCampaignManagerAccused
+position: 957,1429
+---
+Mayor's Campaign Manager: What?! He was the best boss I ever had! So far at least... Go ask his Mistress.
+<<jump NoWin>>
+===
+title: MayorsChiefOfStaffAccused
+position: 954,1561
+---
+Mayor's Chief of Staff: Wait... What... How'd you know it was me?! Darn, that loose lipped manager.
+<<jump Win>>
 ===
