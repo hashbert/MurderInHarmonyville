@@ -25,11 +25,11 @@ namespace StarterAssets
         {
             if (interactable.InteractPossible)
             {
-                Show(playerInteract.GetInteractableObject());
+                ShowInteractAndText(playerInteract.GetInteractableObject());
             }
             else
             {
-                Hide();
+                HideInteractAndText();
             }
         }
 
@@ -45,13 +45,13 @@ namespace StarterAssets
         //    }
         //}
 
-        private void Show(IInteractable interactable)
+        private void ShowInteractAndText(IInteractable interactable)
         {
             containerGameObject.SetActive(true);
             interactTextMeshProUGUI.text = interactable.GetInteractText();
         }
 
-        private void Hide()
+        private void HideInteractAndText()
         {
             containerGameObject.SetActive(false);
         }
