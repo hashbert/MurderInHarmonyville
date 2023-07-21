@@ -23,7 +23,7 @@ position: 568,1216
 title: Win
 position: 1296,1652
 ---
-You solved the mystery! You win!
+<<PlayEndCanvas EndingCanvas>>
 ===
 title: MayorsWife
 position: -717,323
