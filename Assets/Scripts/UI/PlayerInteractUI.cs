@@ -50,8 +50,7 @@ namespace StarterAssets
             containerGameObject.SetActive(true);
             interactTextMeshProUGUI.text = interactable.GetInteractText();
         }
-
-        private void HideInteractAndText()
+        public void HideInteractAndText()
         {
             containerGameObject.SetActive(false);
         }
