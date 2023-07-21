@@ -42,11 +42,11 @@ public class ObjectiveDisplayUI : MonoBehaviour
     public void SlideIn()
     {
         LeanTween.move(this.gameObject, _onScreenLocation, 0.75f);
+        _audioSource.PlayOneShot(_objectiveSound);
     }
     public void SlideOut()
     {
         LeanTween.move(this.gameObject, _offScreenLocation, 0.75f);
-        _audioSource.PlayOneShot(_objectiveSound);
     }
     public void Shake()
     {
