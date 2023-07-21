@@ -33,18 +33,6 @@ namespace StarterAssets
             }
         }
 
-        //private void Update()
-        //{
-        //    if (playerInteract.GetInteractableObject() != null)
-        //    {
-        //        Show(playerInteract.GetInteractableObject());
-        //    }
-        //    else
-        //    {
-        //        Hide();
-        //    }
-        //}
-
         private void ShowInteractAndText(IInteractable interactable)
         {
             containerGameObject.SetActive(true);

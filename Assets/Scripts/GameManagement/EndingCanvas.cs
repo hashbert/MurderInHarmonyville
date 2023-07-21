@@ -10,15 +10,6 @@ public class EndingCanvas : MonoBehaviour
     [SerializeField] private float _fadeInTime = 2f;
     [SerializeField] private GameObject _interactImageAndText;
 
-    private void OnEnable()
-    {
-        
-    }
-    private void OnDisable()
-    {
-        
-    }
-
     [YarnCommand("PlayEndCanvas")]
     public void PlayEndCanvas()
     {
