@@ -2970,12 +2970,12 @@ PrefabInstance:
     - target: {fileID: 8890483484203346444, guid: 1b8ed2f4b412e9a47bbc6f4400c11038,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.30147284
+      value: 0.3014728
       objectReference: {fileID: 0}
     - target: {fileID: 8890483484203346444, guid: 1b8ed2f4b412e9a47bbc6f4400c11038,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0570894
+      value: -0.057089385
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7257,17 +7257,17 @@ PrefabInstance:
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.48595646
+      value: 0.4859565
       objectReference: {fileID: 0}
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.055649206
+      value: 0.055649184
       objectReference: {fileID: 0}
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7204514
+      value: 0.7204515
       objectReference: {fileID: 0}
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
@@ -7818,12 +7818,12 @@ PrefabInstance:
     - target: {fileID: 1762192186986325856, guid: 1423132607d1f394ea5bf8bbb59a47e2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.13675842
+      value: -0.13675845
       objectReference: {fileID: 0}
     - target: {fileID: 1762192186986325856, guid: 1423132607d1f394ea5bf8bbb59a47e2,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.04942053
+      value: 0.049420543
       objectReference: {fileID: 0}
     - target: {fileID: 2228536754908791874, guid: 1423132607d1f394ea5bf8bbb59a47e2,
         type: 3}
@@ -15651,8 +15651,8 @@ RectTransform:
   m_GameObject: {fileID: 892627081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.984732, y: 0.984732, z: 0.984732}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1983298268}
   - {fileID: 812950797}
@@ -15663,7 +15663,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 29.769165, y: 16.745117}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &892627084
 MonoBehaviour:
@@ -20639,12 +20639,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -20707,7 +20707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _endgameCanvasGroup: {fileID: 1135770874}
-  _fadeInTime: 1
+  _fadeInTime: 2
   _interactImageAndText: {fileID: 1028379435}
 --- !u!1001 &1144203641
 PrefabInstance:
