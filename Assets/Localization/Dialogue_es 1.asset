@@ -17,7 +17,667 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 325741c8005da31438e909948f057bba, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 281809899520
+    m_Localized: "El alcalde de Harmonyville ha sido asesinado, y el detective asignado
+      al caso debe entrevistar a cuatro sospechosos, cada uno de los cuales tiene
+      un motivo y una coartada. \xBFPuedes ayudar al detective a resolver el caso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088768
+    m_Localized: "La esposa del alcalde lo sofoc\xF3 para heredar su poder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088769
+    m_Localized: "La amante del alcalde envenen\xF3 su comida por celos y rencor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088770
+    m_Localized: "El gerente de la campa\xF1a lo ahog\xF3 para tomar el poder de
+      Harmonyville."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088771
+    m_Localized: "El Jefe de Gabinete lo apu\xF1al\xF3 en la espalda para obtener
+      su riqueza."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088772
+    m_Localized: "\xA1Resolviste el misterio! \xA1T\xFA ganas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088773
+    m_Localized: "Detective Jones: \xBFPuedes decirme qu\xE9 pas\xF3 de nuevo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088774
+    m_Localized: "Esposa del alcalde: Estuve en casa esa noche. Me fui a la cama
+      temprano y no escuch\xE9 nada hasta la ma\xF1ana siguiente cuando la polic\xEDa
+      lleg\xF3 a mi puerta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088775
+    m_Localized: "Esposa del alcalde: Estuve en casa esa noche. Me fui a la cama
+      temprano y no escuch\xE9 nada hasta la ma\xF1ana siguiente cuando la polic\xEDa
+      lleg\xF3 a mi puerta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088776
+    m_Localized: "\xBFViste o escuchaste algo sospechoso esa noche?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088777
+    m_Localized: "\xBFSabes qui\xE9n podr\xEDa haber matado al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088778
+    m_Localized: Gracias por tu tiempo. Se han observado sus respuestas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088779
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088780
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088781
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088782
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088783
+    m_Localized: 'La esposa del alcalde: estaba en casa, como dije.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088784
+    m_Localized: 'La esposa del alcalde: No, por supuesto que no. Amaba mucho a mi
+      esposo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088785
+    m_Localized: 'La esposa del alcalde: No, no lo hice. Estaba dormido.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088786
+    m_Localized: "La esposa del alcalde: No, yo no. No puedo imaginar qui\xE9n querr\xEDa
+      lastimarlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088787
+    m_Localized: "Detective Jones: \xBFTu cari\xF1o ...? Eso es bastante audaz de
+      tu parte para venir a la escena del crimen sabiendo que su esposa estar\xEDa
+      aqu\xED. \xBFEst\xE1s intentando parecer inocente?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088788
+    m_Localized: "La amante del alcalde: No, estaba enamorado de mi booboo. Nunca
+      lo habr\xEDa lastimado, pero tal vez su exigente esposa lo har\xEDa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088789
+    m_Localized: "Detective Jones: \xBFEst\xE1s diciendo que la esposa lo hizo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088790
+    m_Localized: "\xBFTen\xEDas alguna raz\xF3n para querer al alcalde muerto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088791
+    m_Localized: "\xBFD\xF3nde estabas cuando el alcalde fue asesinado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088792
+    m_Localized: "\xBFSabes qui\xE9n podr\xEDa haber matado al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088793
+    m_Localized: Gracias por tu tiempo. Se han observado sus respuestas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088794
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088795
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088796
+    m_Localized: "La amante del alcalde: No, no lo hice. Estaba enamorado del alcalde.
+      Nunca lo habr\xEDa lastimado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088797
+    m_Localized: "La amante del alcalde: yo tambi\xE9n estaba en casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088798
+    m_Localized: "Mistresa del alcalde: No, yo no. Estoy tan sorprendido y horrorizado
+      como todos los dem\xE1s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088799
+    m_Localized: "Detective Jones: Soy el detective Jones, y estoy aqu\xED para investigar
+      el asesinato del alcalde. \xBFMe puedes decir que es lo que paso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088800
+    m_Localized: "Detective Jones: \xBFPuedes decirme qu\xE9 pas\xF3 de nuevo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088801
+    m_Localized: "Gerente de campa\xF1a del alcalde: estuve en la oficina de campa\xF1a
+      esa noche. Est\xE1bamos trabajando en la campa\xF1a de reelecci\xF3n del alcalde.
+      No salimos de la oficina hasta despu\xE9s de la medianoche."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088802
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088803
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088804
+    m_Localized: "\xBFViste o escuchaste algo sospechoso esa noche?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088805
+    m_Localized: "\xBFSabes qui\xE9n podr\xEDa haber matado al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088806
+    m_Localized: Gracias por tu tiempo. Se han observado sus respuestas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088807
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088808
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088809
+    m_Localized: "Gerente de campa\xF1a del alcalde: No, no lo hice. El alcalde era
+      mi jefe, y lo respet\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088810
+    m_Localized: "Gerente de campa\xF1a del alcalde: est\xE1bamos en la oficina de
+      campa\xF1a, como dije."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088811
+    m_Localized: "Gerente de campa\xF1a del alcalde: No, no lo hicimos. Est\xE1bamos
+      trabajando en la campa\xF1a."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088812
+    m_Localized: "Gerente de campa\xF1a del alcalde: no lo s\xE9. Podr\xEDa haber
+      sido cualquiera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088813
+    m_Localized: "Detective Jones: \xA1Gracias, estatua! Has sido de gran ayuda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088814
+    m_Localized: 'Estatua: No es probable que mi G.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088815
+    m_Localized: "Detective Jones: \xBFPor qu\xE9 no dijiste nada antes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088816
+    m_Localized: "Estatua: Ten\xEDa miedo. No quer\xEDa lastimarme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088817
+    m_Localized: 'Detective Jones: Entiendo. Pero hiciste lo correcto al avanzar.
+      Me ayudaste a resolver el caso y llevar al asesino ante la justicia.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088818
+    m_Localized: "Estatua: Todo bien mi G. Estoy aqu\xED, Big Chillin, as\xED que
+      me alegra poder ayudar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088819
+    m_Localized: 'Estatua: Gracias, detective. Me alegro de poder ayudar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088820
+    m_Localized: 'Estatua: No es probable que mi G.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088821
+    m_Localized: "Detective Jones: \xBFPor qu\xE9 no dijiste nada antes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088822
+    m_Localized: "Estatua: Ten\xEDa miedo. No quer\xEDa lastimarme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088823
+    m_Localized: 'Detective Jones: Entiendo. Pero hiciste lo correcto al avanzar.
+      Me ayudaste a resolver el caso y llevar al asesino ante la justicia.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088824
+    m_Localized: 'Estatua: Gracias, detective. Me alegro de poder ayudar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088825
+    m_Localized: "Detective Jones: Soy el detective Jones, y estoy aqu\xED para investigar
+      el asesinato del alcalde. \xBFMe puedes decir que es lo que paso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088826
+    m_Localized: "Detective Jones: \xBFPuedes decirme qu\xE9 pas\xF3 de nuevo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088827
+    m_Localized: "Jefe de gabinete del alcalde: Estuve con el alcalde esa noche.
+      Est\xE1bamos trabajando hasta tarde en un discurso que estaba dando al d\xEDa
+      siguiente. El alcalde sali\xF3 de la oficina alrededor de las 11:00 p.m., y
+      me fui unos 15 minutos despu\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088828
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088829
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088830
+    m_Localized: "\xBFViste o escuchaste algo sospechoso esa noche?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088831
+    m_Localized: "\xBFSabes qui\xE9n podr\xEDa haber matado al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088832
+    m_Localized: Gracias por tu tiempo. Se han observado sus respuestas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088833
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088834
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088835
+    m_Localized: 'Jefe de Estado Mayor del alcalde: No, no lo hice. Fui leal al alcalde
+      hasta el final.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088836
+    m_Localized: "Jefe de gabinete del alcalde: me dirig\xEDa a conocer al alcalde,
+      como dije."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088837
+    m_Localized: "Jefe de Estado Mayor del alcalde: No, no lo hice. Est\xE1bamos
+      trabajando en el discurso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088838
+    m_Localized: "Jefe de Estado Mayor del alcalde: No lo s\xE9. Podr\xEDa haber
+      sido cualquiera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281965088839
+    m_Localized: 'Ghost of Harmonyville Mayor: Tan cerca pero no cigarro. Intenta
+      acusar a otra persona o hablar con la estatua.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472543985664
+    m_Localized: "\xA1Resolviste el misterio! \xA1T\xFA ganas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900224
+    m_Localized: 'La esposa del alcalde: estaba en casa, como dije.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900225
+    m_Localized: 'La esposa del alcalde: No, no lo hice. Estaba dormido.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900226
+    m_Localized: 'La esposa del alcalde: No, pero siempre trabajaba hasta tarde con
+      los cielos que saben.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900227
+    m_Localized: "Detective Jones: \xBFD\xF3nde estabas cuando mataron al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900228
+    m_Localized: "La amante del alcalde: lo estaba esperando en el motel esa noche.
+      Estaba viendo televisi\xF3n cuando vi las noticias sobre el asesinato del alcalde.
+      Estaba tan asustado y vine aqu\xED lo m\xE1s r\xE1pido que pude para ayudar
+      a mi querida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900229
+    m_Localized: 'La amante del alcalde: si eso es lo que escuchaste entonces ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900230
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900231
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900232
+    m_Localized: "Me gustar\xEDa acusar a un sospechoso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900233
+    m_Localized: "Detective Jones: \xBFPuedes decirme qu\xE9 pas\xF3 de nuevo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900234
+    m_Localized: "Gerente de campa\xF1a del alcalde: estuve en la oficina de campa\xF1a
+      esa noche. No salimos de la oficina hasta despu\xE9s de la medianoche. El alcalde
+      se fue, as\xED que tuve que bloquear."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900235
+    m_Localized: "Gerente de campa\xF1a del alcalde: estuve en la oficina de campa\xF1a
+      esa noche. No salimos de la oficina hasta despu\xE9s de la medianoche. El alcalde
+      se fue, as\xED que tuve que bloquear."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900236
+    m_Localized: "\xBFD\xF3nde estabas cuando el alcalde fue asesinado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900237
+    m_Localized: "\xBFViste o escuchaste algo sospechoso esa noche?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900238
+    m_Localized: "\xBFSabes qui\xE9n podr\xEDa haber matado al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900239
+    m_Localized: Gracias por tu tiempo. Se han observado sus respuestas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900240
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900241
+    m_Localized: "Gerente de campa\xF1a del alcalde: No, no lo hice. El alcalde era
+      mi jefe, y lo respet\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900242
+    m_Localized: "Gerente de campa\xF1a del alcalde: estaba bloqueando la oficina
+      de campa\xF1a, como dije. Cuando lo atrap\xE9, lo encontr\xE9 debajo de la
+      estatua con un cuchillo en \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900243
+    m_Localized: "Gerente de campa\xF1a del alcalde: No, no lo hice. Si solo esa
+      estatua tuviera ojos y o\xEDdos, \xBFtal vez obtuvi\xE9ramos alguna respuesta,
+      \xBFsabes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900244
+    m_Localized: "Gerente de campa\xF1a del alcalde: no lo s\xE9. Me siento mal por
+      su esposa. S\xE9 que estaban teniendo problemas, pero a\xFAn as\xED no merec\xEDa
+      que esto le pasara."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900245
+    m_Localized: 'Estatua: Vi al jefe de gabinete del alcalde matarlo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900246
+    m_Localized: "Detective Jones: \xBFLo hiciste?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900247
+    m_Localized: "Estatua: S\xED, lo hice. Estaba parado aqu\xED cuando \xE9l corri\xF3
+      sobre \xE9l. Llevaba una mierda brillante, y la sumergi\xF3 en el alcalde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900248
+    m_Localized: "Detective Jones: \xBFPor qu\xE9 lo hizo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900249
+    m_Localized: "Estatua: Estaba susurrando todo enojado como que el alcalde se
+      hab\xEDa negado a darle una promoci\xF3n. Tambi\xE9n dijo que quer\xEDa tener
+      sus manos en el dinero del alcalde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900250
+    m_Localized: "Detective Jones: \xBFPuedes decirme qu\xE9 pas\xF3 de nuevo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900251
+    m_Localized: "Jefe de Estado Mayor del alcalde: Est\xE1bamos trabajando hasta
+      tarde en un discurso que estaba dando al d\xEDa siguiente. El alcalde sali\xF3
+      de la oficina alrededor de las 11:00 p.m., y me fui unos 15 minutos despu\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900252
+    m_Localized: "Jefe de Estado Mayor del alcalde: Est\xE1bamos trabajando hasta
+      tarde en un discurso que estaba dando al d\xEDa siguiente. El alcalde sali\xF3
+      de la oficina alrededor de las 11:00 p.m., y me fui unos 15 minutos despu\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900253
+    m_Localized: "\xBFD\xF3nde estabas cuando el alcalde fue asesinado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900254
+    m_Localized: "\xBFViste o escuchaste algo sospechoso esa noche?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900255
+    m_Localized: "\xBFSabes qui\xE9n podr\xEDa haber matado al alcalde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900256
+    m_Localized: Gracias por tu tiempo. Se han observado sus respuestas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900257
+    m_Localized: "Todav\xEDa necesito m\xE1s informaci\xF3n. Veamos qu\xE9 m\xE1s
+      puedo averiguar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900258
+    m_Localized: 'Jefe de Estado Mayor del alcalde: No, nunca. Fui leal al alcalde
+      hasta el final. Al final.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900259
+    m_Localized: 'Jefe de gabinete del alcalde: estaba agarrando las llaves para
+      encerrar la oficina.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900260
+    m_Localized: 'Jefe de Estado Mayor del alcalde: No, no lo hice. Estaba demasiado
+      concentrado en el trabajo. Realmente necesito el dinero para pagar mis facturas.
+      Yo tengo una familia.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900261
+    m_Localized: "El jefe de gabinete del alcalde: S\xE9 que su esposa lo estaba
+      enga\xF1ando con nuestro gerente de campa\xF1a, pero no s\xE9 de qui\xE9n escuchaste
+      eso ... no era yo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900262
+    m_Localized: "Ghost of Harmonyville Mayor: Tan cerca pero no cigarro. Intenta
+      acusar a alguien m\xE1s o ver si alguien ten\xEDa la vista del asesinato."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900263
+    m_Localized: "Esposa del alcalde: No no, no, \xA1c\xF3mo te atreves!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900264
+    m_Localized: "La amante del alcalde: \xBFPor qu\xE9, me lastimar\xEDa mi booboo?
+      \xA1Ve a preguntarle a su esposa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900265
+    m_Localized: "Gerente de campa\xF1a del alcalde: \xBFQu\xE9? \xA1Era el mejor
+      jefe que he tenido! Hasta ahora al menos ... Ve a preguntarle a su amante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189472606900266
+    m_Localized: "Jefe de gabinete del alcalde: Espera ... \xBFQu\xE9 ... c\xF3mo
+      sab\xEDas que fui yo? Maldita sea, ese gerente de lipado suelto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263616339968
+    m_Localized: "Detective Jones: Soy el detective Jones, y estoy aqu\xED para investigar
+      el asesinato del alcalde. \xBFMe puedes decir que es lo que paso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283008
+    m_Localized: "\xBFD\xF3nde estabas cuando el alcalde fue asesinado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283009
+    m_Localized: 'La esposa del alcalde: estaba en casa, como dije.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283010
+    m_Localized: 'La esposa del alcalde: No, no lo hice. Estaba dormido.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283011
+    m_Localized: 'La esposa del alcalde: No, pero siempre trabajaba hasta tarde con
+      los cielos que saben.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283012
+    m_Localized: "Detective Jones: Soy el detective Jones, y estoy aqu\xED para investigar
+      el asesinato. \xBFD\xF3nde estabas cuando el alcalde fue asesinado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283013
+    m_Localized: "Detective Jones: Soy el detective Jones, y estoy aqu\xED para investigar
+      el asesinato del alcalde. \xBFMe puedes decir que es lo que paso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283014
+    m_Localized: "\xBFTen\xEDas alguna raz\xF3n para querer al alcalde muerto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283015
+    m_Localized: "Gerente de campa\xF1a del alcalde: No, no lo hice. El alcalde era
+      mi jefe, y lo respet\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283016
+    m_Localized: "Gerente de campa\xF1a del alcalde: estaba bloqueando la oficina
+      de campa\xF1a, como dije. Cuando lo atrap\xE9, lo encontr\xE9 debajo de la
+      estatua con un cuchillo en \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283017
+    m_Localized: "Gerente de campa\xF1a del alcalde: No, no lo hice. Si solo esa
+      estatua tuviera ojos y o\xEDdos, \xBFtal vez obtuvi\xE9ramos alguna respuesta,
+      \xBFsabes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283018
+    m_Localized: "Gerente de campa\xF1a del alcalde: no lo s\xE9. Me siento mal por
+      su esposa. S\xE9 que estaban teniendo problemas, pero a\xFAn as\xED no merec\xEDa
+      que esto le pasara."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283019
+    m_Localized: "Detective Jones: \xBFPuedes decirme qu\xE9 viste?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283020
+    m_Localized: "Detective Jones: Soy el detective Jones, y estoy aqu\xED para investigar
+      el asesinato del alcalde. \xBFMe puedes decir que es lo que paso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283021
+    m_Localized: "\xBFC\xF3mo fue tu relaci\xF3n con el alcalde? \xBFLo querr\xEDas
+      muerto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283022
+    m_Localized: 'Jefe de Estado Mayor del alcalde: No, nunca. Fui leal al alcalde
+      hasta el final. Al final.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283023
+    m_Localized: 'Jefe de gabinete del alcalde: estaba agarrando las llaves para
+      encerrar la oficina.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283024
+    m_Localized: 'Jefe de Estado Mayor del alcalde: No, no lo hice. Estaba demasiado
+      concentrado en el trabajo. Realmente necesito el dinero para pagar mis facturas.
+      Yo tengo una familia.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283025
+    m_Localized: "El jefe de gabinete del alcalde: S\xE9 que su esposa lo estaba
+      enga\xF1ando con nuestro gerente de campa\xF1a, pero no s\xE9 de qui\xE9n escuchaste
+      eso ... no era yo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283026
+    m_Localized: "Ghost of Harmonyville Mayor: Tan cerca pero no cigarro. Intenta
+      acusar a alguien m\xE1s o ver si alguien ten\xEDa la vista del asesinato."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283027
+    m_Localized: "Esposa del alcalde: No no, no, \xA1c\xF3mo te atreves!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283028
+    m_Localized: "La amante del alcalde: \xBFPor qu\xE9, me lastimar\xEDa mi booboo?
+      \xA1Ve a preguntarle a su esposa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283029
+    m_Localized: "Gerente de campa\xF1a del alcalde: \xBFQu\xE9? \xA1Era el mejor
+      jefe que he tenido! Hasta ahora al menos ... Ve a preguntarle a su amante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331263658283030
+    m_Localized: "Jefe de gabinete del alcalde: Espera ... \xBFQu\xE9 ... c\xF3mo
+      sab\xEDas que fui yo? Maldita sea, ese gerente de lipado suelto."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -40,18 +40,19 @@ position: -717,323
     Detective Jones: Can you tell me what happened again?
 <<endif>>
 Mayor's Wife: I was at home that night. I went to bed early, and I didn't hear anything until the next morning when the police came to my door.
+Detective Jones: Mind if I ask a few questions...
 <<jump MayorsWifeQuestions>>
 ===
 title: MayorsWifeQuestions
 position: -433,317
 ---
--> Where were you when the mayor was killed? <<if $MayorsWifeOptionAClicked == false>>
+-> Detective Jones: Where were you when the mayor was killed? <<if $MayorsWifeOptionAClicked == false>>
     <<jump MayorsWifeResponseA>>
--> Did you see or hear anything suspicious that night? <<if $MayorsWifeOptionBClicked == false>>
+-> Detective Jones: Did you see or hear anything suspicious that night? <<if $MayorsWifeOptionBClicked == false>>
     <<jump MayorsWifeResponseB>>
--> Do you know who could have killed the mayor? <<if $MayorsWifeOptionCClicked == false>>
+-> Detective Jones: Do you know who could have killed the mayor? <<if $MayorsWifeOptionCClicked == false>>
     <<jump MayorsWifeResponseC>>
--> Thank you for your time. Your responses have been noted.
+-> Detective Jones: Thank you for your time. Your responses have been noted.
     <<set $MayorsWifeOptionAClicked=false>>
     <<set $MayorsWifeOptionBClicked=false>>
     <<set $MayorsWifeOptionCClicked=false>>
@@ -120,6 +121,7 @@ position: -720,1529
     Detective Jones: Can you tell me what happened again?
 <<endif>>
 Mayor's Campaign Manager: I was at the campaign office that night. We didn't leave the office until after midnight. The mayor left so I had to lock up.
+Detective Jones: Mind if I ask a few questions...
 <<jump MayorsCampaignManagerQuestions>>
 ===
 title: MayorsCampaignManagerQuestions
@@ -205,20 +207,21 @@ position: -741,2238
     Detective Jones: Can you tell me what happened again?
 <<endif>>
 Mayor's Chief of Staff: We were working late on a speech he was giving the next day. The mayor left the office around 11:00 PM, and I left about 15 minutes later.
+Detective Jones: Mind if I ask a few questions...
 <<jump MayorsChiefOfStaffQuestions>>
 ===
 title: MayorsChiefOfStaffQuestions
 position: -452,2242
 ---
--> How was your relationship with the mayor? Would you want him dead? <<if $MayorsChiefOfStaffOptionAClicked == false>>
+-> Detective Jones: How was your relationship with the mayor? Would you want him dead? <<if $MayorsChiefOfStaffOptionAClicked == false>>
     <<jump MayorsChiefOfStaffResponseA>>
--> Where were you when the mayor was killed? <<if $MayorsChiefOfStaffOptionBClicked == false>>
+-> Detective Jones: Where were you when the mayor was killed? <<if $MayorsChiefOfStaffOptionBClicked == false>>
     <<jump MayorsChiefOfStaffResponseB>>
--> Did you see or hear anything suspicious that night? <<if $MayorsChiefOfStaffOptionCClicked == false>>
+-> Detective Jones: Did you see or hear anything suspicious that night? <<if $MayorsChiefOfStaffOptionCClicked == false>>
     <<jump MayorsChiefOfStaffResponseC>>
--> Do you know who could have killed the mayor? <<if $MayorsChiefOfStaffOptionDClicked == false>>
+-> Detective Jones: Do you know who could have killed the mayor? <<if $MayorsChiefOfStaffOptionDClicked == false>>
     <<jump MayorsChiefOfStaffResponseD>>
--> Thank you for your time. Your responses have been noted.
+-> Detective Jones: Thank you for your time. Your responses have been noted.
     <<set $MayorsChiefOfStaffOptionAClicked=false>>
     <<set $MayorsChiefOfStaffOptionBClicked=false>>
     <<set $MayorsChiefOfStaffOptionCClicked=false>>
