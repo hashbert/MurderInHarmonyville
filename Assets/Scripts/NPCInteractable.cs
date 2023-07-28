@@ -45,7 +45,6 @@ namespace StarterAssets
             _exclamationMark.enabled = false;
             Bounce();
             TurnTowards(otherNPC);
-            SetVirtualCameraPriority(20);
         }
 
         private void Bounce()
