@@ -7483,22 +7483,22 @@ PrefabInstance:
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.4859565
+      value: 0.48595646
       objectReference: {fileID: 0}
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.055649184
+      value: 0.055649206
       objectReference: {fileID: 0}
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7204515
+      value: 0.7204514
       objectReference: {fileID: 0}
     - target: {fileID: 2800094403075639212, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.49162918
+      value: -0.49162924
       objectReference: {fileID: 0}
     - target: {fileID: 4436766545871226155, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
@@ -7533,7 +7533,7 @@ PrefabInstance:
     - target: {fileID: 4524815080750447650, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07324178
+      value: 0.07324176
       objectReference: {fileID: 0}
     - target: {fileID: 4524815080750447650, guid: bc26f12bd4435364091cca6768935854,
         type: 3}
@@ -21735,7 +21735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _endgameCanvasGroup: {fileID: 1135770874}
   _fadeInTime: 2
-  _interactImageAndText: {fileID: 1028379435}
+  _interactImageAndText: {fileID: 2056186244}
   _playerInput: {fileID: 894989935}
   _mainTheme: {fileID: 1488895443}
   _introAndWinTheme: {fileID: 1488895444}
@@ -38882,6 +38882,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1665234447597313636, guid: 40c21504f643c7543a270cfe308d00c8,
     type: 3}
   m_PrefabInstance: {fileID: 2052854737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2056186244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1353314737727668655, guid: 7a70c8df4255737468473927284153c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1028379433}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2061089056
 PrefabInstance:
