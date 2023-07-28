@@ -16,7 +16,7 @@ public class QuitGameCommand : MonoBehaviour
         FindObjectOfType<Yarn.Unity.DialogueRunner>().AddCommandHandler("quit", () => Quit());
     }
 
-    private void Quit()
+    public void Quit()
     {
         // In the editor, leave Play Mode. In a regular build, quit the
         // app.
