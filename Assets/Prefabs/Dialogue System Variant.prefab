@@ -774,6 +774,8 @@ MonoBehaviour:
     displayColor: {r: 0.8679245, g: 0.5931921, b: 0.41485694, a: 1}
   - characterName: 
     displayColor: {r: 0, g: 0, b: 0, a: 0}
+  - characterName: Mayor's Chief of Staff
+    displayColor: {r: 0.3529412, g: 0.8352941, b: 0.8392157, a: 0}
   lineTexts:
   - {fileID: 3675202930404751585}
   - {fileID: 3675202929178353807}
