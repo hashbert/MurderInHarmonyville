@@ -10,6 +10,11 @@ public class DialogueManager : MonoBehaviour
     private static int NumberOfNPCsVisited = 0;
     public static event Action OnNPCVisitedForFirstTime;
 
+    private void Start()
+    {
+        NumberOfNPCsVisited = 0;
+    }
+
     [YarnCommand("addToNPCsVistedCount")]
     public void AddToNPCVisitedCount()
     {
