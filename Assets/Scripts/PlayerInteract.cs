@@ -10,15 +10,29 @@ namespace StarterAssets
 
         [SerializeField] private InputActionReference _interact;
         public static event Action<IInteractable> OnInteractPossibleAndClosest;
+        [SerializeField] private PlayerInput _playerInput;
 
         private void OnEnable()
         {
             _interact.action.started += Interact;
+            Actions.OnDialogueStart += SwitchInputMapToUI;
+            Actions.OnDialogueEnd += SwitchInputMapToPlayer;
         }
+
 
         private void OnDisable()
         {
             _interact.action.started -= Interact;
+            Actions.OnDialogueStart -= SwitchInputMapToUI;
+            Actions.OnDialogueEnd -= SwitchInputMapToPlayer;
+        }
+        private void SwitchInputMapToPlayer()
+        {
+            _playerInput.SwitchCurrentActionMap("Player");
+        }
+        private void SwitchInputMapToUI()
+        {
+            _playerInput.SwitchCurrentActionMap("UI");
         }
 
         private void Interact(InputAction.CallbackContext obj)
