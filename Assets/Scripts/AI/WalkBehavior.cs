@@ -16,7 +16,6 @@ public class WalkBehavior : StateMachineBehaviour
     {
         _thisTransform = animator.gameObject.GetComponent<Transform>();
         _timeToStayWalking = Random.Range(_minTimeToStayWalking, _maxTimeToStayWalking);
-        Debug.Log("time to stay walking: " + _timeToStayWalking);
         navMeshAgent = animator.gameObject.GetComponent<NavMeshAgent>();
         _randomPointOnNavMesh = FindObjectOfType<RandomPointOnNavMesh>();
         Vector3 destination = _randomPointOnNavMesh.GetRandomPointOnNavMesh();

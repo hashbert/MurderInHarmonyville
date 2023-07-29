@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using Yarn.Unity;
+using Cinemachine;
 
 namespace StarterAssets
 {
@@ -17,7 +18,32 @@ namespace StarterAssets
         public static event Action<NPCInteractable> OnInteractPossible;
         [SerializeField] private Image _exclamationMark;
         [SerializeField] private DialogueRunner _dialogueRunner;
+        [SerializeField] private CinemachineVirtualCamera _virtualCamera;
+        [SerializeField] private Animator _animator;
+        [SerializeField] private string _startDialogueState;
+        [SerializeField] private string _endDialogueState;
 
+        private void OnEnable()
+        {
+            Actions.OnDialogueEnd += SetVCamPriorityToOne;
+            Actions.OnDialogueEnd += SetEndDialogueState;
+        }
+
+
+
+        private void OnDisable()
+        {
+            Actions.OnDialogueEnd -= SetVCamPriorityToOne;
+            Actions.OnDialogueEnd -= SetEndDialogueState;
+        }
+        private void SetVCamPriorityToOne()
+        {
+            _virtualCamera.Priority = 1;
+        }
+        private void SetEndDialogueState()
+        {
+            _animator.SetTrigger(_endDialogueState);
+        }
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.GetComponent<ThirdPersonController>() != null)
@@ -45,6 +71,8 @@ namespace StarterAssets
             _exclamationMark.enabled = false;
             Bounce();
             TurnTowards(otherNPC);
+            _virtualCamera.Priority = 20;
+            _animator.SetTrigger(_startDialogueState);
         }
 
         private void Bounce()

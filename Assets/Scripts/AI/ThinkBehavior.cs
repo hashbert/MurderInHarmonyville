@@ -12,7 +12,6 @@ public class ThinkBehavior : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         _timeToStayThinking = Random.Range(_minTimeToStayThinking, _maxTimeToStayThinking);
-        Debug.Log("time to stay thinking: " + _timeToStayThinking);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
