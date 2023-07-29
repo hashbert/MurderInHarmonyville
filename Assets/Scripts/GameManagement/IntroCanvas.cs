@@ -1,4 +1,5 @@
 using Cinemachine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class IntroCanvas : MonoBehaviour
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private float _cameraSpinSpeed = 10f;
     [SerializeField] private float _targetRotationYInDegrees = 140f;
+    public static event Action OnPlayClicked;
 
     // Start is called before the first frame update
     void Start()
@@ -20,4 +22,8 @@ public class IntroCanvas : MonoBehaviour
         LeanTween.rotateAround(_vcam.gameObject, Vector3.up, _targetRotationYInDegrees, _cameraSpinSpeed).setLoopPingPong();
     }
 
+    public void PlayClicked()
+    {
+        OnPlayClicked?.Invoke();
+    }
 }

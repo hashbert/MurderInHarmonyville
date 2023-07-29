@@ -12,9 +12,8 @@ public class EndingCanvas : MonoBehaviour
     [SerializeField] private float _fadeInTime = 2f;
     [SerializeField] private GameObject _UICanvas;
     [SerializeField] private PlayerInput _playerInput;
-    [SerializeField] private AudioSource _mainTheme;
-    [SerializeField] private AudioSource _introAndWinTheme;
-    [SerializeField] private Button _playButton; 
+    [SerializeField] private Button _playButton;
+    public static event Action OnPlayEndCanvas;
 
     [YarnCommand("PlayEndCanvas")]
     public void PlayEndCanvas()
@@ -24,8 +23,7 @@ public class EndingCanvas : MonoBehaviour
         _playButton.Select();
         LeanTween.value(_endgameCanvasGroup.gameObject, SetAlphaCallback, 0f, 1f, _fadeInTime).setEase(LeanTweenType.easeOutQuint);
         StartCoroutine(TurnOffInteractAndText());
-        _mainTheme.Stop();
-        _introAndWinTheme.Play();
+        OnPlayEndCanvas?.Invoke();
     }
 
     private IEnumerator TurnOffInteractAndText()

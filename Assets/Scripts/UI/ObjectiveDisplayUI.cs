@@ -9,8 +9,7 @@ public class ObjectiveDisplayUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _objectiveText;
     [SerializeField] private Transform _onScreenLocation;
     [SerializeField] private Transform _offScreenLocation;
-    [SerializeField] private AudioClip _objectiveSound;
-    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioSource _objectiveSoundSource;
     public static event Action OnVisitedEnoughNPCs;
     private void OnEnable()
     {
@@ -42,7 +41,8 @@ public class ObjectiveDisplayUI : MonoBehaviour
     public void SlideIn()
     {
         LeanTween.move(this.gameObject, _onScreenLocation, 0.75f);
-        _audioSource.PlayOneShot(_objectiveSound);
+        SoundManager.Instance.PlaySound(_objectiveSoundSource);
+        print("played slide in objective sound");
     }
     public void SlideOut()
     {
@@ -51,6 +51,6 @@ public class ObjectiveDisplayUI : MonoBehaviour
     public void Shake()
     {
         LeanTween.moveY(this.gameObject, transform.position.y - 100f, 1f).setEasePunch();
-        _audioSource.PlayOneShot(_objectiveSound);
+        SoundManager.Instance.PlaySound(_objectiveSoundSource);
     }
 }
