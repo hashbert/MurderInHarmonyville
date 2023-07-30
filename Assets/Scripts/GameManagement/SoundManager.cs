@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,7 @@ public class SoundManager : MonoBehaviour {
 
     [SerializeField] private AudioSource _continueClick;
     [SerializeField] private AudioSource _optionSelected;
+    [SerializeField] private AudioSource _objectiveSound;
 
     private void Awake() {
         Instance = this;
@@ -24,6 +26,7 @@ public class SoundManager : MonoBehaviour {
     {
         Actions.OnContinueClicked += PlayContinueClicked;
         Actions.OnOptionSelected += PlayOptionSelected;
+        ObjectiveDisplayUI.OnPlayObjectiveSound += PlayObjectiveSound;
     }
 
 
@@ -31,6 +34,11 @@ public class SoundManager : MonoBehaviour {
     {
         Actions.OnContinueClicked -= PlayContinueClicked;
         Actions.OnOptionSelected -= PlayOptionSelected;
+        ObjectiveDisplayUI.OnPlayObjectiveSound -= PlayObjectiveSound;
+    }
+    private void PlayObjectiveSound()
+    {
+        PlaySound(_objectiveSound);
     }
     private void PlayOptionSelected()
     {

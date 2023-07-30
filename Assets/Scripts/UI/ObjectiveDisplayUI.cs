@@ -9,8 +9,9 @@ public class ObjectiveDisplayUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _objectiveText;
     [SerializeField] private Transform _onScreenLocation;
     [SerializeField] private Transform _offScreenLocation;
-    [SerializeField] private AudioSource _objectiveSoundSource;
     public static event Action OnVisitedEnoughNPCs;
+    public static event Action OnPlayObjectiveSound;
+    
     private void OnEnable()
     {
         DialogueManager.OnNPCVisitedForFirstTime += UpdateObjective;
@@ -41,7 +42,7 @@ public class ObjectiveDisplayUI : MonoBehaviour
     public void SlideIn()
     {
         LeanTween.move(this.gameObject, _onScreenLocation, 0.75f);
-        SoundManager.Instance.PlaySound(_objectiveSoundSource);
+        OnPlayObjectiveSound?.Invoke();
         print("played slide in objective sound");
     }
     public void SlideOut()
@@ -51,6 +52,6 @@ public class ObjectiveDisplayUI : MonoBehaviour
     public void Shake()
     {
         LeanTween.moveY(this.gameObject, transform.position.y - 100f, 1f).setEasePunch();
-        SoundManager.Instance.PlaySound(_objectiveSoundSource);
+        OnPlayObjectiveSound?.Invoke();
     }
 }
