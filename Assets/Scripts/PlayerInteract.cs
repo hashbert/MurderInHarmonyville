@@ -39,6 +39,7 @@ namespace StarterAssets
         {
             if (obj.started)
             {
+                print("interact button hit");
                 IInteractable interactable = GetInteractableObject();
                 if (interactable != null && interactable.IsInteractable())
                 {
