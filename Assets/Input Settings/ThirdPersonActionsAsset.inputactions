@@ -172,7 +172,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "UPLR",
+                    "name": "UDLR",
                     "id": "7c5612de-b4ce-4ae9-8240-561be426f0bc",
                     "path": "Dpad",
                     "interactions": "",
@@ -216,17 +216,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "left",
-                    "id": "8ef47e0f-f1d2-4250-bc86-29bd3cbfef17",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "LookZoom",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "right",
                     "id": "f78f0b74-eea9-46af-bde0-f0f4d69c8d95",
                     "path": "<Mouse>/delta/right",
@@ -236,28 +225,6 @@
                     "action": "LookZoom",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "01b6e51e-af9d-4ab2-9703-b733c1132851",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "LookZoom",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "UPLRKeyboard",
-                    "id": "f1c95de9-7dbe-4dca-9ee2-6c2ff0f5f574",
-                    "path": "Dpad(mode=1)",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "LookZoom",
-                    "isComposite": true,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "up",
@@ -274,6 +241,28 @@
                     "name": "down",
                     "id": "59bddfa1-afd2-452c-af5a-de65cf469944",
                     "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "LookZoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "8ef47e0f-f1d2-4250-bc86-29bd3cbfef17",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "LookZoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "01b6e51e-af9d-4ab2-9703-b733c1132851",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
@@ -304,22 +293,11 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "UPLRGamepad",
-                    "id": "cec7bd28-eeb4-461a-b2e3-5c882e1aa069",
-                    "path": "Dpad(mode=1)",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "LookZoom",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "left",
                     "id": "dbd46f19-06a0-42d2-984c-f847c261ef93",
                     "path": "<Gamepad>/rightStick/left",
                     "interactions": "",
-                    "processors": "Scale(factor=1E-15),Normalize(max=0.1)",
+                    "processors": "",
                     "groups": "Gamepad",
                     "action": "LookZoom",
                     "isComposite": false,
@@ -330,7 +308,7 @@
                     "id": "5726e806-e42d-4186-bc67-025a5c4dbfa9",
                     "path": "<Gamepad>/rightStick/right",
                     "interactions": "",
-                    "processors": "Scale(factor=1E-15),Normalize(max=0.1)",
+                    "processors": "",
                     "groups": "Gamepad",
                     "action": "LookZoom",
                     "isComposite": false,
